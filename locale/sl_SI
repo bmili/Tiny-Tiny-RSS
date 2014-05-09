@@ -1,0 +1,3394 @@
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <boris@razmere.si>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tiny rss\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-18 12:21+0400\n"
+"PO-Revision-Date: 2014-05-08 15:47+0100\n"
+"Last-Translator: boris <boris@razmere.si>\n"
+"Language-Team: Slovenian <boris@razmere.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: backend.php:73
+msgid "Use default"
+msgstr "Uporabite prednastavnljeno"
+
+#: backend.php:74
+msgid "Never purge"
+msgstr "Nikoli brisati"
+
+#: backend.php:75
+msgid "1 week old"
+msgstr "Po 1 tedenuo"
+
+#: backend.php:76
+msgid "2 weeks old"
+msgstr "Po 2 tednih"
+
+#: backend.php:77
+msgid "1 month old"
+msgstr "Po 1 mesecu"
+
+#: backend.php:78
+msgid "2 months old"
+msgstr "Po 2 mesecih"
+
+#: backend.php:79
+msgid "3 months old"
+msgstr "Po 3 Mesecih"
+
+#: backend.php:79 backend.php:82
+msgid "Default interval"
+msgstr "Prednastavnljen interval"
+
+#: backend.php:83 backend.php:93
+msgid "Disable updates"
+msgstr "Onemogočeni popravki"
+
+#: backend.php:84 backend.php:94
+msgid "Each 15 minutes"
+msgstr "Vsakih 15 min"
+
+#: backend.php:85 backend.php:95
+msgid "Each 30 minutes"
+msgstr "Vsakih 30 min"
+
+#: backend.php:86 backend.php:96
+msgid "Hourly"
+msgstr "Urno"
+
+#: backend.php:87 backend.php:97
+msgid "Each 4 hours"
+msgstr "Vsakih 4 ure"
+
+#: backend.php:88 backend.php:98
+msgid "Each 12 hours"
+msgstr "Vsakih 12 ur"
+
+#: backend.php:89 backend.php:99
+msgid "Daily"
+msgstr "Dnevno"
+
+#: backend.php:90 backend.php:100
+msgid "Weekly"
+msgstr "Tedensko"
+
+#: backend.php:103 classes/pref/users.php:119 classes/pref/system.php:51
+msgid "User"
+msgstr "Uporabnik"
+
+#: backend.php:104
+msgid "Power User"
+msgstr "Zmogljiv uporabnik"
+
+#: backend.php:105
+msgid "Administrator"
+msgstr "Administrator"
+
+#: errors.php:9
+msgid ""
+"This program requires XmlHttpRequest to function properly. Your browser "
+"doesn't seem to support it."
+msgstr ""
+"Ta program zahteva XMLHttpRequest za pravilno delovanje. Vaš brskalnik to "
+"kot se zdi, ne podpira."
+
+#: errors.php:12
+msgid ""
+"This program requires cookies to function properly. Your browser doesn't "
+"seem to support them."
+msgstr ""
+"Ta program zahteva piškotke za pravilno delovanje. Vaš brskalnik jih kot se "
+"zdi, ne podpira."
+
+#: errors.php:15
+msgid "Backend sanity check failed."
+msgstr "Preverjanje delovanja v ozadju ni uspelo"
+
+#: errors.php:17
+msgid "Frontend sanity check failed."
+msgstr "Preverjanje delovanja v ospredju ni uspelo"
+
+#: errors.php:19
+msgid ""
+"Incorrect database schema version. &lt;a href='db-updater.php'&gt;Please "
+"update&lt;/a&gt;."
+msgstr ""
+"Napačna schema različice podatkovne baze.&lt;a href='db-updater.php'&gt;"
+"Prosim popravite&lt;/a&gt;."
+
+#: errors.php:21
+msgid "Request not authorized."
+msgstr "Zahteva ni dovoljena"
+
+#: errors.php:23
+msgid "No operation to perform."
+msgstr "Nobene naloge za izvajanje"
+
+#: errors.php:25
+msgid ""
+"Could not display feed: query failed. Please check label match syntax or "
+"local configuration."
+msgstr ""
+"Ni mogoče prikazati vira: poizvedba ni uspela. Prosimo, preverite "
+"odgovarjajočo sintakso ali lokalna konfiguracijo."
+
+#: errors.php:27
+msgid "Denied. Your access level is insufficient to access this page."
+msgstr "Zavrnjeno. Vaša raven dostopa ne zadostuje za dostop do te strani."
+
+#: errors.php:29
+msgid "Configuration check failed"
+msgstr "Preverjanje nastavitve ni uspelo"
+
+#: errors.php:31
+msgid ""
+"Your version of MySQL is not currently supported. Please see official site "
+"for more information."
+msgstr ""
+"Your version of MySQL is not currently supported. Please see official site "
+"for more information."
+
+#: errors.php:35
+msgid "SQL escaping test failed, check your database and PHP configuration"
+msgstr ""
+"SQL uhaja preizkus ni uspel, preverite svojo podatkovno bazo in PHP "
+"konfiguracijo"
+
+#: index.php:129 index.php:146 index.php:268 prefs.php:98
+#: classes/backend.php:5 classes/pref/labels.php:296
+#: classes/pref/filters.php:683 classes/pref/feeds.php:1361 js/feedlist.js:126
+#: js/feedlist.js:450 js/functions.js:446 js/functions.js:784
+#: js/functions.js:1211 js/functions.js:1347 js/functions.js:1659
+#: js/prefs.js:653 js/prefs.js:854 js/prefs.js:1441 js/prefs.js:1494
+#: js/prefs.js:1534 js/prefs.js:1551 js/prefs.js:1567 js/prefs.js:1587
+#: js/prefs.js:1760 js/prefs.js:1776 js/prefs.js:1794 js/tt-rss.js:510
+#: js/tt-rss.js:527 js/viewfeed.js:855 js/viewfeed.js:1312
+#: plugins/import_export/import_export.js:17 plugins/updater/updater.js:17
+msgid "Loading, please wait..."
+msgstr "Nalaganje, prosimo počakajte ..."
+
+#: index.php:160
+msgid "Collapse feedlist"
+msgstr "Skrči seznam virov"
+
+#: index.php:163
+msgid "Show articles"
+msgstr "Prikaži članke"
+
+#: index.php:166
+msgid "Adaptive"
+msgstr "Prilagodi"
+
+#: index.php:167
+msgid "All Articles"
+msgstr "Vsi članki"
+
+#: index.php:168 include/functions.php:2082 classes/feeds.php:101
+msgid "Starred"
+msgstr "Z zvezdico"
+
+#: index.php:169 include/functions.php:2083 classes/feeds.php:102
+msgid "Published"
+msgstr "Objavljeno"
+
+#: index.php:170 classes/feeds.php:88 classes/feeds.php:100
+msgid "Unread"
+msgstr "Neprebrano"
+
+#: index.php:171
+msgid "Unread First"
+msgstr "Neprebrano najprej"
+
+#: index.php:172
+msgid "With Note"
+msgstr "Z opombo"
+
+#: index.php:173
+msgid "Ignore Scoring"
+msgstr "Ignoriraj točkovanje"
+
+#: index.php:176
+msgid "Sort articles"
+msgstr "Razvrsti članke"
+
+#: index.php:179
+msgid "Default"
+msgstr "Prednastavljeno"
+
+#: index.php:180
+msgid "Newest first"
+msgstr "Najnovejši najprej"
+
+#: index.php:181
+msgid "Oldest first"
+msgstr "Najnstarejši najprej"
+
+#: index.php:182
+msgid "Title"
+msgstr "Naziv"
+
+#: index.php:186 index.php:234 include/functions.php:2072
+#: classes/feeds.php:106 js/FeedTree.js:128 js/FeedTree.js:156
+msgid "Mark as read"
+msgstr "Označi kot prebrano"
+
+#: index.php:189
+msgid "Older than one day"
+msgstr "Starejši kot en dan"
+
+#: index.php:192
+msgid "Older than one week"
+msgstr "Starejši kot en teden"
+
+#: index.php:195
+msgid "Older than two weeks"
+msgstr "Starejši kot dva tedna"
+
+#: index.php:211
+msgid "Communication problem with server."
+msgstr "Problem komunukacije s strežnikom"
+
+#: index.php:219
+msgid "New version of Tiny Tiny RSS is available!"
+msgstr "Nova verzija Tiny Tiny RSS je na razpolago"
+
+#: index.php:224
+msgid "Actions..."
+msgstr "Aktivnosti..."
+
+#: index.php:226
+msgid "Preferences..."
+msgstr "Nastavitve"
+
+#: index.php:227
+msgid "Search..."
+msgstr "Iskanje"
+
+#: index.php:228
+msgid "Feed actions:"
+msgstr "Aktivnosti vira"
+
+#: index.php:229 classes/handler/public.php:611
+msgid "Subscribe to feed..."
+msgstr "Naročilo na vir"
+
+#: index.php:230
+msgid "Edit this feed..."
+msgstr "Urejanje tega vira"
+
+#: index.php:231
+msgid "Rescore feed"
+msgstr "Ponovno oceni vir"
+
+#: index.php:232 classes/pref/feeds.php:756 classes/pref/feeds.php:1316
+#: js/PrefFeedTree.js:74
+msgid "Unsubscribe"
+msgstr "Odjava"
+
+#: index.php:233
+msgid "All feeds:"
+msgstr "Vsi viri"
+
+#: index.php:235
+msgid "(Un)hide read feeds"
+msgstr "(Odkri)skri prebrane vire"
+
+#: index.php:236
+msgid "Other actions:"
+msgstr "Ostale aktivnosti"
+
+#: index.php:237 include/functions.php:2058
+msgid "Toggle widescreen mode"
+msgstr "Preklopi na širokozaslonski način"
+
+#: index.php:238
+msgid "Select by tags..."
+msgstr "Izbira z oznakami"
+
+#: index.php:239
+msgid "Create label..."
+msgstr "Kreiranje nalepke"
+
+#: index.php:240
+msgid "Create filter..."
+msgstr "Kreiranje filtra"
+
+#: index.php:241
+msgid "Keyboard shortcuts help"
+msgstr "Pomoč za bližnjice tipkovnice"
+
+#: index.php:250
+msgid "Logout"
+msgstr "Odjava"
+
+#: prefs.php:33 prefs.php:116 include/functions.php:2085
+#: classes/pref/prefs.php:440
+msgid "Preferences"
+msgstr "Nastavitve"
+
+#: prefs.php:107
+msgid "Keyboard shortcuts"
+msgstr "Bližnjice na tipkovnici"
+
+#: prefs.php:108
+msgid "Exit preferences"
+msgstr "Izhod iz nastavitev"
+
+#: prefs.php:119 classes/pref/feeds.php:109 classes/pref/feeds.php:1242
+#: classes/pref/feeds.php:1305
+msgid "Feeds"
+msgstr "Viri"
+
+#: prefs.php:122 classes/pref/filters.php:158
+msgid "Filters"
+msgstr "Filtri"
+
+#: prefs.php:125 include/functions.php:1246 include/functions.php:1907
+#: classes/pref/labels.php:90
+msgid "Labels"
+msgstr "Etikete"
+
+#: prefs.php:129
+msgid "Users"
+msgstr "Uporabniki"
+
+#: prefs.php:132
+msgid "System"
+msgstr "Sistem"
+
+#: register.php:186 include/login_form.php:238
+msgid "Create new account"
+msgstr "Kreiraj nov račun"
+
+#: register.php:192
+msgid "New user registrations are administratively disabled."
+msgstr "Registracija novega uporabnika je onemogočena od administratorja"
+
+#: register.php:196 register.php:241 register.php:254 register.php:269
+#: register.php:288 register.php:336 register.php:346 register.php:358
+#: classes/handler/public.php:681 classes/handler/public.php:772
+#: classes/handler/public.php:858 classes/handler/public.php:937
+#: classes/handler/public.php:951 classes/handler/public.php:958
+#: classes/handler/public.php:983
+msgid "Return to Tiny Tiny RSS"
+msgstr "Nazaj v  Tiny RSS"
+
+#: register.php:217
+msgid ""
+"Your temporary password will be sent to the specified email. Accounts, which "
+"were not logged in once, are erased automatically 24 hours after temporary "
+"password is sent."
+msgstr ""
+"Vaše začasno geslo bo poslano na določeno e-poštni naslov. Računi, ki niso "
+"bili vpisani enkrat, se avtomatično izbrišejo 24 ur po tem, ko je začasno "
+"geslo poslano."
+
+#: register.php:223
+msgid "Desired login:"
+msgstr "Prijava je zahtevana"
+
+#: register.php:226
+msgid "Check availability"
+msgstr "Preveri razpoložljivost"
+
+#: register.php:228 classes/handler/public.php:816
+msgid "Email:"
+msgstr "E-pošta"
+
+#: register.php:231 classes/handler/public.php:821
+msgid "How much is two plus two:"
+msgstr "Koliko je dva plus dva"
+
+#: register.php:234
+msgid "Submit registration"
+msgstr "Pošlji registracijo"
+
+#: register.php:252
+msgid "Your registration information is incomplete."
+msgstr "Vaši podatki za registracijo so nepopolni"
+
+#: register.php:267
+msgid "Sorry, this username is already taken."
+msgstr "Žal je to uporabniško ime že zasedeno"
+
+#: register.php:286
+msgid "Registration failed."
+msgstr "Registracija ni uspela"
+
+#: register.php:333
+msgid "Account created successfully."
+msgstr "Račun je bil uspešno kreiran"
+
+#: register.php:355
+msgid "New user registrations are currently closed."
+msgstr "Registracija novih uporabnikov je trenutno zaprta."
+
+#: update.php:55
+msgid "Tiny Tiny RSS data update script."
+msgstr "Tiny Tiny RSS skript za osvežitev podatkov."
+
+#: include/digest.php:109 include/functions.php:1255
+#: include/functions.php:1808 include/functions.php:1893
+#: include/functions.php:1915 classes/opml.php:421 classes/pref/feeds.php:225
+msgid "Uncategorized"
+msgstr "Nekategorizirano"
+
+#: include/feedbrowser.php:83
+#, php-format
+msgid "%d archived article"
+msgid_plural "%d archived articles"
+msgstr[0] "%d arhiviran  članek"
+msgstr[1] "%d arhiviranih člankov"
+
+#: include/feedbrowser.php:107
+msgid "No feeds found."
+msgstr "Ni najdenih virov"
+
+#: include/functions.php:1244 include/functions.php:1905
+msgid "Special"
+msgstr "Posebno"
+
+#: include/functions.php:1756 classes/feeds.php:1120
+#: classes/pref/filters.php:429
+msgid "All feeds"
+msgstr "Vsi viri"
+
+#: include/functions.php:1960
+msgid "Starred articles"
+msgstr "Članki z zvezdico"
+
+#: include/functions.php:1962
+msgid "Published articles"
+msgstr "Objavljeni članki"
+
+#: include/functions.php:1964
+msgid "Fresh articles"
+msgstr "Sveži članki"
+
+#: include/functions.php:1966 include/functions.php:2080
+msgid "All articles"
+msgstr "Vsi članki"
+
+#: include/functions.php:1968
+msgid "Archived articles"
+msgstr "Arhivirani članki"
+
+#: include/functions.php:1970
+msgid "Recently read"
+msgstr "Pred kratkim prebrano"
+
+#: include/functions.php:2032
+msgid "Navigation"
+msgstr "Navigacija"
+
+#: include/functions.php:2033
+msgid "Open next feed"
+msgstr "Odpri naslednji vir"
+
+#: include/functions.php:2034
+msgid "Open previous feed"
+msgstr "Odpri predhodnji vir"
+
+#: include/functions.php:2035
+msgid "Open next article"
+msgstr "Odpri naslednji članek"
+
+#: include/functions.php:2036
+msgid "Open previous article"
+msgstr "Odpri predhodnji članek"
+
+#: include/functions.php:2037
+msgid "Open next article (don't scroll long articles)"
+msgstr "Odpri naslednji članek (brez pomikanja daljših člankov)"
+
+#: include/functions.php:2038
+msgid "Open previous article (don't scroll long articles)"
+msgstr "Odpri  predhodnji članek (brez pomikanja daljših člankov)"
+
+#: include/functions.php:2039
+msgid "Move to next article (don't expand or mark read)"
+msgstr "Premik na naslednji članek (brez širijenja ali označbe za branje)"
+
+#: include/functions.php:2040
+msgid "Move to previous article (don't expand or mark read)"
+msgstr "Premik na predhodnji članek (brez širijenja ali označbe za branje)"
+
+#: include/functions.php:2041
+msgid "Show search dialog"
+msgstr "Prikaži okno za iskanje"
+
+#: include/functions.php:2042
+msgid "Article"
+msgstr "Članek"
+
+#: include/functions.php:2043 js/viewfeed.js:1975
+msgid "Toggle starred"
+msgstr "Preklopi na označevanje z zvezdico"
+
+#: include/functions.php:2044 js/viewfeed.js:1986
+msgid "Toggle published"
+msgstr "Preklop na objavljeno"
+
+#: include/functions.php:2045 js/viewfeed.js:1964
+msgid "Toggle unread"
+msgstr "Preklop na neprebarne"
+
+#: include/functions.php:2046
+msgid "Edit tags"
+msgstr "Urejanje oznak"
+
+#: include/functions.php:2047
+msgid "Dismiss selected"
+msgstr "Opusti izbrane"
+
+#: include/functions.php:2048
+msgid "Dismiss read"
+msgstr "Opusti prebrano"
+
+#: include/functions.php:2049
+msgid "Open in new window"
+msgstr "Odpri v novem oknu"
+
+#: include/functions.php:2050 js/viewfeed.js:2005
+msgid "Mark below as read"
+msgstr "Označi spodaj kot prebrano"
+
+#: include/functions.php:2051 js/viewfeed.js:1999
+msgid "Mark above as read"
+msgstr "Označi zgoraj kot prebrano"
+
+#: include/functions.php:2052
+msgid "Scroll down"
+msgstr "Pomik navzdol"
+
+#: include/functions.php:2053
+msgid "Scroll up"
+msgstr "Pomik navzgor"
+
+#: include/functions.php:2054
+msgid "Select article under cursor"
+msgstr "Izberite članek pod kazalcem"
+
+#: include/functions.php:2055
+msgid "Email article"
+msgstr "ÄŚÂŤlanek po E-pošti "
+
+#: include/functions.php:2056
+msgid "Close/collapse article"
+msgstr "Zapri / strni članek"
+
+#: include/functions.php:2057
+msgid "Toggle article expansion (combined mode)"
+msgstr "Preklop širitve članka (kombiniran način)"
+
+#: include/functions.php:2059 plugins/embed_original/init.php:31
+msgid "Toggle embed original"
+msgstr "Preklop vključenega izvirnika"
+
+#: include/functions.php:2060
+msgid "Article selection"
+msgstr "Izbira članka"
+
+#: include/functions.php:2061
+msgid "Select all articles"
+msgstr "Izberite vse članke"
+
+#: include/functions.php:2062
+msgid "Select unread"
+msgstr "Izberite neprebrano"
+
+#: include/functions.php:2063
+msgid "Select starred"
+msgstr "Izberi označene z zvezdico"
+
+#: include/functions.php:2064
+msgid "Select published"
+msgstr "Izberite objavljeno"
+
+#: include/functions.php:2065
+msgid "Invert selection"
+msgstr "Obrni izbor"
+
+#: include/functions.php:2066
+msgid "Deselect everything"
+msgstr "prekličite izbiro vseh"
+
+#: include/functions.php:2067 classes/pref/feeds.php:549
+#: classes/pref/feeds.php:793
+msgid "Feed"
+msgstr "Vir"
+
+#: include/functions.php:2068
+msgid "Refresh current feed"
+msgstr "Osvežite trenutni vir"
+
+#: include/functions.php:2069
+msgid "Un/hide read feeds"
+msgstr "Od / skrij brane vire"
+
+#: include/functions.php:2070 classes/pref/feeds.php:1308
+msgid "Subscribe to feed"
+msgstr "Naročite se na vir"
+
+#: include/functions.php:2071 js/FeedTree.js:135 js/PrefFeedTree.js:68
+msgid "Edit feed"
+msgstr "Edit feed"
+
+#: include/functions.php:2073
+msgid "Reverse headlines"
+msgstr "Oobrni naslovnice"
+
+#: include/functions.php:2074
+msgid "Debug feed update"
+msgstr "Razhroščevanje posodobitve vira"
+
+#: include/functions.php:2075 js/FeedTree.js:178
+msgid "Mark all feeds as read"
+msgstr "Označi vse vire kot prebrane"
+
+#: include/functions.php:2076
+msgid "Un/collapse current category"
+msgstr "Od/strni trenutno kategorijo"
+
+#: include/functions.php:2077
+msgid "Toggle combined mode"
+msgstr "Preklopi kombinirani način"
+
+#: include/functions.php:2078
+msgid "Toggle auto expand in combined mode"
+msgstr "Preklopi na samodejno razširitev v kombiniranem načinu"
+
+#: include/functions.php:2079
+msgid "Go to"
+msgstr "Pojdi na"
+
+#: include/functions.php:2081
+msgid "Fresh"
+msgstr "Sveže"
+
+#: include/functions.php:2084 js/tt-rss.js:460 js/tt-rss.js:649
+msgid "Tag cloud"
+msgstr "Označi oblak"
+
+#: include/functions.php:2086
+msgid "Other"
+msgstr "Drugo"
+
+#: include/functions.php:2087 classes/pref/labels.php:281
+msgid "Create label"
+msgstr "Ustvari nalepko"
+
+#: include/functions.php:2088 classes/pref/filters.php:657
+msgid "Create filter"
+msgstr "Ustvari filter"
+
+#: include/functions.php:2089
+msgid "Un/collapse sidebar"
+msgstr "Od/strni stransko vrstico"
+
+#: include/functions.php:2090
+msgid "Show help dialog"
+msgstr "Prikaži okno za pomoč"
+
+#: include/functions.php:2635
+#, php-format
+msgid "Search results: %s"
+msgstr "Rezultati iskanja: %s"
+
+#: include/functions.php:3242 classes/feeds.php:706
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "komentar"
+msgstr[1] "komentarji"
+
+#: include/functions.php:3246 classes/feeds.php:710
+msgid "comments"
+msgstr "komentarji"
+
+#: include/functions.php:3284
+msgid " - "
+msgstr " - "
+
+#: include/functions.php:3317 include/functions.php:3565
+#: classes/article.php:281
+msgid "no tags"
+msgstr "ni oznak"
+
+#: include/functions.php:3327 classes/feeds.php:692
+msgid "Edit tags for this article"
+msgstr "Urejanje oznak za ta članek"
+
+#: include/functions.php:3359 classes/feeds.php:644
+msgid "Originally from:"
+msgstr "Izvira iz"
+
+#: include/functions.php:3372 classes/feeds.php:657 classes/pref/feeds.php:568
+msgid "Feed URL"
+msgstr "URL vira"
+
+#: include/functions.php:3406 classes/dlg.php:37 classes/dlg.php:60
+#: classes/dlg.php:93 classes/dlg.php:159 classes/dlg.php:190
+#: classes/dlg.php:217 classes/dlg.php:250 classes/dlg.php:262
+#: classes/backend.php:105 classes/pref/users.php:95
+#: classes/pref/filters.php:149 classes/pref/prefs.php:1100
+#: classes/pref/feeds.php:1607 classes/pref/feeds.php:1675
+#: plugins/import_export/init.php:407 plugins/import_export/init.php:452
+#: plugins/googlereaderimport/init.php:194 plugins/share/init.php:123
+#: plugins/updater/init.php:374
+msgid "Close this window"
+msgstr "Zapri to okno"
+
+#: include/functions.php:3602
+msgid "(edit note)"
+msgstr "(opomba za urejanje)"
+
+#: include/functions.php:3838
+msgid "unknown type"
+msgstr "neznana vrsta"
+
+#: include/functions.php:3898
+msgid "Attachments"
+msgstr "Priponke"
+
+#: include/functions.php:4382
+#, php-format
+msgid "LibXML error %s at line %d (column %d): %s"
+msgstr "LibXML Napaka %s v vrstici %d (stolpec %d): %s"
+
+#: include/login_form.php:183 classes/handler/public.php:520
+#: classes/handler/public.php:811
+msgid "Login:"
+msgstr "Prijava"
+
+#: include/login_form.php:193 classes/handler/public.php:523
+msgid "Password:"
+msgstr "Geslo"
+
+#: include/login_form.php:199
+msgid "I forgot my password"
+msgstr "Pozabil sem geslo"
+
+#: include/login_form.php:205
+msgid "Profile:"
+msgstr "Profil:"
+
+#: include/login_form.php:209 classes/handler/public.php:263
+#: classes/rpc.php:63 classes/pref/prefs.php:1038
+msgid "Default profile"
+msgstr "Privzeti profil"
+
+#: include/login_form.php:217
+msgid "Use less traffic"
+msgstr "Uporabite manj prometa"
+
+#: include/login_form.php:221
+msgid "Does not display images in articles, reduces automatic refreshes."
+msgstr "Ne prikaži slike v člankih, zmanjša samodejno osvežitev."
+
+#: include/login_form.php:229
+msgid "Remember me"
+msgstr "Zapomni si me"
+
+#: include/login_form.php:235 classes/handler/public.php:528
+msgid "Log in"
+msgstr "prijavite se"
+
+#: include/sessions.php:61
+msgid "Session failed to validate (incorrect IP)"
+msgstr "Seja ni uspela za preverjanje (nepravilen IP)"
+
+#: include/sessions.php:67
+msgid "Session failed to validate (schema version changed)"
+msgstr "Seja ni uspela za preverjanje (različica sheme spremenjena)"
+
+#: include/sessions.php:73
+msgid "Session failed to validate (user agent changed)"
+msgstr "Seja ni uspela za preverjanje (uporabniški posrednik je spremenjen)"
+
+#: include/sessions.php:85
+msgid "Session failed to validate (user not found)"
+msgstr "Seja ni uspela za preverjanje (uporabnik ni bil najden)"
+
+#: include/sessions.php:94
+msgid "Session failed to validate (password changed)"
+msgstr "Seja ni uspela za preverjanje (spremenjeno geslo)"
+
+#: classes/article.php:25
+msgid "Article not found."
+msgstr "Članka ni mogoče najti."
+
+#: classes/article.php:179
+msgid "Tags for this article (separated by commas):"
+msgstr "Oznake za ta članek (ločene z vejicami):"
+
+#: classes/article.php:204 classes/pref/users.php:168
+#: classes/pref/labels.php:79 classes/pref/filters.php:407
+#: classes/pref/prefs.php:984 classes/pref/feeds.php:772
+#: classes/pref/feeds.php:899 plugins/nsfw/init.php:85
+#: plugins/note/init.php:51 plugins/instances/init.php:245
+msgid "Save"
+msgstr "Shrani"
+
+#: classes/article.php:206 classes/handler/public.php:497
+#: classes/handler/public.php:531 classes/feeds.php:1047
+#: classes/feeds.php:1099 classes/feeds.php:1159 classes/pref/users.php:170
+#: classes/pref/labels.php:81 classes/pref/filters.php:410
+#: classes/pref/filters.php:806 classes/pref/filters.php:887
+#: classes/pref/filters.php:954 classes/pref/prefs.php:986
+#: classes/pref/feeds.php:773 classes/pref/feeds.php:902
+#: classes/pref/feeds.php:1815 plugins/mail/init.php:129
+#: plugins/note/init.php:53 plugins/instances/init.php:248
+#: plugins/instances/init.php:436
+msgid "Cancel"
+msgstr "Prekini"
+
+#: classes/handler/public.php:461 plugins/bookmarklets/init.php:40
+msgid "Share with Tiny Tiny RSS"
+msgstr "Delite s Tiny Tiny RSS"
+
+#: classes/handler/public.php:469
+msgid "Title:"
+msgstr "Naslov:"
+
+#: classes/handler/public.php:471 classes/pref/feeds.php:566
+#: plugins/instances/init.php:212 plugins/instances/init.php:401
+msgid "URL:"
+msgstr "URL"
+
+#: classes/handler/public.php:473
+msgid "Content:"
+msgstr "vsebina:"
+
+#: classes/handler/public.php:475
+msgid "Labels:"
+msgstr "Oznake:"
+
+#: classes/handler/public.php:494
+msgid "Shared article will appear in the Published feed."
+msgstr "Članek v skupni rabi se bo pojavil v objavljenem viru."
+
+#: classes/handler/public.php:496
+msgid "Share"
+msgstr "V skupno rabo"
+
+#: classes/handler/public.php:518
+msgid "Not logged in"
+msgstr "Niste prijavljeni"
+
+#: classes/handler/public.php:577
+msgid "Incorrect username or password"
+msgstr "Napačno uporabniško ime ali geslo"
+
+#: classes/handler/public.php:617 classes/handler/public.php:715
+#, php-format
+msgid "Already subscribed to <b>%s</b>."
+msgstr "Ĺ˝e naročeni na <b>%s</b>."
+
+#: classes/handler/public.php:620 classes/handler/public.php:706
+#, php-format
+msgid "Subscribed to <b>%s</b>."
+msgstr "Naročeni na  <b>%s</b>."
+
+#: classes/handler/public.php:623 classes/handler/public.php:709
+#, php-format
+msgid "Could not subscribe to <b>%s</b>."
+msgstr "Ni se možno naročiti na <b>%s</b>."
+
+#: classes/handler/public.php:626 classes/handler/public.php:712
+#, php-format
+msgid "No feeds found in <b>%s</b>."
+msgstr "Ni najdenih virov v <b>%s</b>."
+
+#: classes/handler/public.php:629 classes/handler/public.php:718
+msgid "Multiple feed URLs found."
+msgstr "Najdenih več naslovov URL vira."
+
+#: classes/handler/public.php:633 classes/handler/public.php:725
+#, php-format
+msgid "Could not subscribe to <b>%s</b>.<br>Can't download the Feed URL."
+msgstr "Ni se možno naročiti na <b>%s</b>.<br>ni mogoče prenesti URL vira."
+
+#: classes/handler/public.php:651 classes/handler/public.php:743
+msgid "Subscribe to selected feed"
+msgstr "Naročite se na izbrani vir"
+
+#: classes/handler/public.php:676 classes/handler/public.php:767
+msgid "Edit subscription options"
+msgstr "Urejanje opcij naročnine"
+
+#: classes/handler/public.php:798
+msgid "Password recovery"
+msgstr "Obnovitev gesla"
+
+#: classes/handler/public.php:804
+msgid ""
+"You will need to provide valid account name and email. New password will be "
+"sent on your email address."
+msgstr ""
+"Zagotoviti moralte  veljavno ime računa in e-pošto. Novo geslo bo poslano na "
+"vaĹˇ e-poĹˇtni naslov."
+
+#: classes/handler/public.php:826 classes/pref/users.php:352
+msgid "Reset password"
+msgstr "Ponastavitev gesla"
+
+#: classes/handler/public.php:836
+msgid "Some of the required form parameters are missing or incorrect."
+msgstr "Nekatere od zahtevanih parametrov obrazca ali pa niso pravilne."
+
+#: classes/handler/public.php:840 classes/handler/public.php:866
+msgid "Go back"
+msgstr "Nazaj"
+
+#: classes/handler/public.php:862
+msgid "Sorry, login and email combination not found."
+msgstr "Oprostite, kombinacijo prijave in e-poštne ni bilo mogoče najti."
+
+#: classes/handler/public.php:884
+msgid "Your access level is insufficient to run this script."
+msgstr "Stopnja dostopa ne zadostuje za zagon tega skripta"
+
+#: classes/handler/public.php:910
+msgid "Database Updater"
+msgstr "Posodabljanje Podatkovne baze"
+
+#: classes/handler/public.php:975
+msgid "Perform updates"
+msgstr "Opravite posodobitve"
+
+#: classes/dlg.php:16
+msgid ""
+"If you have imported labels and/or filters, you might need to reload "
+"preferences to see your new data."
+msgstr ""
+
+#: classes/dlg.php:48
+msgid "Your Public OPML URL is:"
+msgstr "Vaš Javni OPML URL je:"
+
+#: classes/dlg.php:57 classes/dlg.php:214 plugins/share/init.php:120
+msgid "Generate new URL"
+msgstr "Ustvari nov URL"
+
+#: classes/dlg.php:71
+msgid ""
+"Update daemon is enabled in configuration, but daemon process is not "
+"running, which prevents all feeds from updating. Please start the daemon "
+"process or contact instance owner."
+msgstr ""
+"Update daemon je omogočen v konfiguraciji, vendar daemon proces ne teče, kar "
+"preprečuje posodabljanje  vseh virov. Prosimo, začnite postopek (deamon) ali "
+"se obrnite na lastnika instance."
+
+#: classes/dlg.php:75 classes/dlg.php:84
+msgid "Last update:"
+msgstr "Zadnja sprememba:"
+
+#: classes/dlg.php:80
+msgid ""
+"Update daemon is taking too long to perform a feed update. This could "
+"indicate a problem like crash or a hang. Please check the daemon process or "
+"contact instance owner."
+msgstr ""
+"Update daemon traja predolgo za opravljanje posodabljanja vira. To lahko "
+"kaže na težave, kot so zrušitev ali obvis. Prosimo, preverite demon proces "
+"ali  kontaktirajte  lastnika instance."
+
+#: classes/dlg.php:166
+msgid "Match:"
+msgstr "Ustreza:"
+
+#: classes/dlg.php:168
+msgid "Any"
+msgstr "Katerokoli"
+
+#: classes/dlg.php:171
+msgid "All tags."
+msgstr "Vse oznake."
+
+#: classes/dlg.php:173
+msgid "Which Tags?"
+msgstr "Katere Oznake?"
+
+#: classes/dlg.php:186
+msgid "Display entries"
+msgstr "Prikaz vnosov"
+
+#: classes/dlg.php:205
+msgid "You can view this feed as RSS using the following URL:"
+msgstr "Si lahko ogledate ta vir, kaot RSS z uporabo naslednjega URL:"
+
+#: classes/dlg.php:233 plugins/updater/init.php:333
+#, php-format
+msgid "New version of Tiny Tiny RSS is available (%s)."
+msgstr "Nova različica Tiny Tiny RSS je na voljo  (%s)."
+
+#: classes/dlg.php:241
+msgid ""
+"You can update using built-in updater in the Preferences or by using update."
+"php"
+msgstr ""
+"Lahko posodobite s pomočjo vgrajenega updater v nastavitvah ali z uporabo "
+"update.php"
+
+#: classes/dlg.php:245 plugins/updater/init.php:337
+msgid "See the release notes"
+msgstr "Glej opombe ob izdaji"
+
+#: classes/dlg.php:247
+msgid "Download"
+msgstr "Prenos"
+
+#: classes/dlg.php:255
+msgid "Error receiving version information or no new version available."
+msgstr ""
+"Napaka prejemanje informacij o različici ali ni nova različica na voljo."
+"Napaka pri prejemu informacije o različici ali nova različica ni na voljo."
+
+#: classes/feeds.php:58
+#, php-format
+msgid "Last updated: %s"
+msgstr "Zadnja posodobitev: %s"
+
+#: classes/feeds.php:78
+msgid "View as RSS feed"
+msgstr "Poglej kot RSS vir"
+
+#: classes/feeds.php:79 classes/feeds.php:131 classes/pref/feeds.php:1467
+msgid "View as RSS"
+msgstr "Poglej kot RSS"
+
+#: classes/feeds.php:86
+msgid "Select:"
+msgstr "Izberi:"
+
+#: classes/feeds.php:87 classes/pref/users.php:337 classes/pref/labels.php:275
+#: classes/pref/filters.php:284 classes/pref/filters.php:332
+#: classes/pref/filters.php:651 classes/pref/filters.php:739
+#: classes/pref/filters.php:766 classes/pref/prefs.php:998
+#: classes/pref/feeds.php:1299 classes/pref/feeds.php:1556
+#: classes/pref/feeds.php:1622 plugins/instances/init.php:287
+msgid "All"
+msgstr "Vse"
+
+#: classes/feeds.php:89
+msgid "Invert"
+msgstr "Obrni"
+
+#: classes/feeds.php:90 classes/pref/users.php:339 classes/pref/labels.php:277
+#: classes/pref/filters.php:286 classes/pref/filters.php:334
+#: classes/pref/filters.php:653 classes/pref/filters.php:741
+#: classes/pref/filters.php:768 classes/pref/prefs.php:1000
+#: classes/pref/feeds.php:1301 classes/pref/feeds.php:1558
+#: classes/pref/feeds.php:1624 plugins/instances/init.php:289
+msgid "None"
+msgstr "Noben"
+
+#: classes/feeds.php:96
+msgid "More..."
+msgstr "Več..."
+
+#: classes/feeds.php:98
+msgid "Selection toggle:"
+msgstr "Izbor preklopa:"
+
+#: classes/feeds.php:104
+msgid "Selection:"
+msgstr "Izbor:"
+
+#: classes/feeds.php:107
+msgid "Set score"
+msgstr "Nastavi oceno"
+
+#: classes/feeds.php:110
+msgid "Archive"
+msgstr "Archiv"
+
+#: classes/feeds.php:112
+msgid "Move back"
+msgstr "Premakni nazaj"
+
+#: classes/feeds.php:113 classes/pref/filters.php:293
+#: classes/pref/filters.php:341 classes/pref/filters.php:748
+#: classes/pref/filters.php:775
+msgid "Delete"
+msgstr "Briši"
+
+#: classes/feeds.php:118 classes/feeds.php:123 plugins/mailto/init.php:25
+#: plugins/mail/init.php:26
+msgid "Forward by email"
+msgstr "Posredovanje po elektronski pošti"
+
+#: classes/feeds.php:127
+msgid "Feed:"
+msgstr "Vir:"
+
+#: classes/feeds.php:200 classes/feeds.php:843
+msgid "Feed not found."
+msgstr "Vir ni najden."
+
+#: classes/feeds.php:257
+msgid "Never"
+msgstr "Nikoli"
+
+#: classes/feeds.php:374
+#, php-format
+msgid "Imported at %s"
+msgstr "Uvožen ob %s"
+
+#: classes/feeds.php:433 classes/feeds.php:527
+msgid "mark feed as read"
+msgstr "Označi vir kot prebran"
+
+#: classes/feeds.php:584
+msgid "Collapse article"
+msgstr "Strni članek"
+
+#: classes/feeds.php:744
+msgid "No unread articles found to display."
+msgstr "Ni najdenih neprebranih člankov za prikaz."
+
+#: classes/feeds.php:747
+msgid "No updated articles found to display."
+msgstr "Ni najdenih spremenjenih člankov za prikaz."
+
+#: classes/feeds.php:750
+msgid "No starred articles found to display."
+msgstr "Ni najdenih ozvezdenij člankov za prikaz."
+
+#: classes/feeds.php:754
+msgid ""
+"No articles found to display. You can assign articles to labels manually "
+"from article header context menu (applies to all selected articles) or use a "
+"filter."
+msgstr ""
+"Ni najdenih člankov za prikaz. Lahko dodelite članke  etiketam ročno iz  "
+"glave članeka kontekstnega menija (velja za vse izbrane članke) ali "
+"uporabite filter."
+
+#: classes/feeds.php:756
+msgid "No articles found to display."
+msgstr "Ni najdenih člankov za prikaz."
+
+#: classes/feeds.php:771 classes/feeds.php:938
+#, php-format
+msgid "Feeds last updated at %s"
+msgstr "Viri zadnjič posodobljeni ob %s"
+
+#: classes/feeds.php:781 classes/feeds.php:948
+msgid "Some feeds have update errors (click for details)"
+msgstr "Nekateri viri  imajo napake posodabljanja (kliknite za podrobnosti)"
+
+#: classes/feeds.php:928
+msgid "No feed selected."
+msgstr "Noben vir ni izbran."
+
+#: classes/feeds.php:985 classes/feeds.php:993
+msgid "Feed or site URL"
+msgstr "Vir ali URL mesto"
+
+#: classes/feeds.php:999 classes/pref/feeds.php:589 classes/pref/feeds.php:800
+#: classes/pref/feeds.php:1779
+msgid "Place in category:"
+msgstr "Mesto v kategoriji:"
+
+#: classes/feeds.php:1007
+msgid "Available feeds"
+msgstr "Razpoložljivj viri"
+
+#: classes/feeds.php:1019 classes/pref/users.php:133
+#: classes/pref/feeds.php:619 classes/pref/feeds.php:836
+msgid "Authentication"
+msgstr "Avtentikacija"
+
+#: classes/feeds.php:1023 classes/pref/users.php:397
+#: classes/pref/feeds.php:625 classes/pref/feeds.php:840
+#: classes/pref/feeds.php:1793
+msgid "Login"
+msgstr "Prijava"
+
+#: classes/feeds.php:1026 classes/pref/prefs.php:260
+#: classes/pref/feeds.php:638 classes/pref/feeds.php:846
+#: classes/pref/feeds.php:1796
+msgid "Password"
+msgstr "Geslo"
+
+#: classes/feeds.php:1036
+msgid "This feed requires authentication."
+msgstr "Ta vir zahteva preverjanje pristnosti."
+
+#: classes/feeds.php:1041 classes/feeds.php:1097 classes/pref/feeds.php:1814
+msgid "Subscribe"
+msgstr "Naročite se"
+
+#: classes/feeds.php:1044
+msgid "More feeds"
+msgstr "več virov"
+
+#: classes/feeds.php:1067 classes/feeds.php:1158 classes/pref/users.php:324
+#: classes/pref/filters.php:644 classes/pref/feeds.php:1292 js/tt-rss.js:174
+msgid "Search"
+msgstr "Iskanje"
+
+#: classes/feeds.php:1071
+msgid "Popular feeds"
+msgstr "Priljubljeni viri"
+
+#: classes/feeds.php:1072
+msgid "Feed archive"
+msgstr "Arhiv virov"
+
+#: classes/feeds.php:1075
+msgid "limit:"
+msgstr "omejitev:"
+
+#: classes/feeds.php:1098 classes/pref/users.php:350
+#: classes/pref/labels.php:284 classes/pref/filters.php:400
+#: classes/pref/filters.php:670 classes/pref/feeds.php:743
+#: plugins/instances/init.php:294
+msgid "Remove"
+msgstr "Odstrani"
+
+#: classes/feeds.php:1109
+msgid "Look for"
+msgstr "Poglej za"
+
+#: classes/feeds.php:1117
+msgid "Limit search to:"
+msgstr "Omejitev iskanja na:"
+
+#: classes/feeds.php:1133
+msgid "This feed"
+msgstr "Ta vir"
+
+#: classes/feeds.php:1154
+msgid "Search syntax"
+msgstr "Sintaksa iskanja"
+
+#: classes/backend.php:33
+msgid "Other interface tips are available in the Tiny Tiny RSS wiki."
+msgstr "Drugi nasveti za vmesnik so na voljo v Tiny Tiny RSS wiki."
+
+#: classes/backend.php:38
+msgid "Keyboard Shortcuts"
+msgstr "Bližnjice na tipkovnici"
+
+#: classes/backend.php:61
+msgid "Shift"
+msgstr "preusmeritev"
+
+#: classes/backend.php:64
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: classes/backend.php:99
+msgid "Help topic not found."
+msgstr "Pomoč za to temo ni bilo mogoče najti."
+
+#: classes/opml.php:28 classes/opml.php:33
+msgid "OPML Utility"
+msgstr "OPML Pripomoček"
+
+#: classes/opml.php:37
+msgid "Importing OPML..."
+msgstr "Uvoz OPML..."
+
+#: classes/opml.php:41
+msgid "Return to preferences"
+msgstr "Vrnitev na preference"
+
+#: classes/opml.php:271
+#, php-format
+msgid "Adding feed: %s"
+msgstr "Dodajanje vira:%s"
+
+#: classes/opml.php:282
+#, php-format
+msgid "Duplicate feed: %s"
+msgstr "Podvojen vir:%s"
+
+#: classes/opml.php:296
+#, php-format
+msgid "Adding label %s"
+msgstr "Dodajanje oznake%s"
+
+#: classes/opml.php:299
+#, php-format
+msgid "Duplicate label: %s"
+msgstr "Podvojena oznaka:%s"
+
+#: classes/opml.php:311
+#, php-format
+msgid "Setting preference key %s to %s"
+msgstr "Nastavitev nastavitvenega ključa%s do%s"
+
+#: classes/opml.php:343
+msgid "Adding filter..."
+msgstr "Dodajanje filtra..."
+
+#: classes/opml.php:421
+#, php-format
+msgid "Processing category: %s"
+msgstr "Obdelava kategorije:%s"
+
+#: classes/opml.php:470 plugins/import_export/init.php:420
+#: plugins/googlereaderimport/init.php:66
+#, php-format
+msgid "Upload failed with error code %d"
+msgstr "Prenos ni uspel s kodo napake%d"
+
+#: classes/opml.php:484 plugins/import_export/init.php:434
+#: plugins/googlereaderimport/init.php:80
+msgid "Unable to move uploaded file."
+msgstr "Ne morem premakniti naložene datoteke."
+
+#: classes/opml.php:488 plugins/import_export/init.php:438
+#: plugins/googlereaderimport/init.php:84
+msgid "Error: please upload OPML file."
+msgstr "Napaka: Prosimo, naložite datoteko OPML."
+
+#: classes/opml.php:497
+msgid "Error: unable to find moved OPML file."
+msgstr "Napaka: ne morem najti premaknjene OPML datoteke."
+
+#: classes/opml.php:504 plugins/googlereaderimport/init.php:187
+msgid "Error while parsing document."
+msgstr "Napaka pri razčlenjevanju dokumenta."
+
+#: classes/pref/users.php:6 classes/pref/system.php:8
+#: plugins/instances/init.php:154
+msgid "Your access level is insufficient to open this tab."
+msgstr "Vaša raven dostopa ne zadoščaza odpiranje taga zavihka."
+
+#: classes/pref/users.php:34
+msgid "User not found"
+msgstr "Uporabnik ni bil najden"
+
+#: classes/pref/users.php:53 classes/pref/users.php:399
+msgid "Registered"
+msgstr "Registrirano"
+
+#: classes/pref/users.php:54
+msgid "Last logged in"
+msgstr "Zadnja prijava"
+
+#: classes/pref/users.php:61
+msgid "Subscribed feeds count"
+msgstr "Naročen na število virov"
+
+#: classes/pref/users.php:65
+msgid "Subscribed feeds"
+msgstr "Naročeni viri"
+
+#: classes/pref/users.php:136
+msgid "Access level: "
+msgstr "Raven dostopa:"
+
+#: classes/pref/users.php:154 classes/pref/feeds.php:646
+#: classes/pref/feeds.php:852
+msgid "Options"
+msgstr "Možnosti"
+
+#: classes/pref/users.php:232
+#, php-format
+msgid "Added user <b>%s</b> with password <b>%s</b>"
+msgstr "Dodan je uporabnik <b>%s </ b> z geslom <b>%s </ b>"
+
+#: classes/pref/users.php:239
+#, php-format
+msgid "Could not create user <b>%s</b>"
+msgstr "Ni mogoče ustvariti uporabnika <b>%s </ b>"
+
+#: classes/pref/users.php:243
+#, php-format
+msgid "User <b>%s</b> already exists."
+msgstr "Uporabnik <b>%s </ b> že obstaja."
+
+#: classes/pref/users.php:265
+#, php-format
+msgid "Changed password of user <b>%s</b> to <b>%s</b>"
+msgstr "Spremenjeno geslo uporabnika <b>%s </b>, da <b>%s </b>"
+
+#: classes/pref/users.php:267
+#, php-format
+msgid "Sending new password of user <b>%s</b> to <b>%s</b>"
+msgstr "Pošiljanje novega geslo za uporabnika <b>%s </b>, da <b>%s </b>"
+
+#: classes/pref/users.php:291
+msgid "[tt-rss] Password change notification"
+msgstr "[tt-rss] obvestilo d spremembi gesla"
+
+#: classes/pref/users.php:334 classes/pref/labels.php:272
+#: classes/pref/filters.php:281 classes/pref/filters.php:329
+#: classes/pref/filters.php:648 classes/pref/filters.php:736
+#: classes/pref/filters.php:763 classes/pref/prefs.php:995
+#: classes/pref/feeds.php:1296 classes/pref/feeds.php:1553
+#: classes/pref/feeds.php:1619 plugins/instances/init.php:284
+msgid "Select"
+msgstr "Izberite"
+
+#: classes/pref/users.php:342
+msgid "Create user"
+msgstr "Ustvari uporabnika"
+
+#: classes/pref/users.php:346
+msgid "Details"
+msgstr "Podrobnosti"
+
+#: classes/pref/users.php:348 classes/pref/filters.php:663
+#: plugins/instances/init.php:293
+msgid "Edit"
+msgstr "Uredi"
+
+#: classes/pref/users.php:398
+msgid "Access Level"
+msgstr "Raven dostopa"
+
+#: classes/pref/users.php:400
+msgid "Last login"
+msgstr "Zadnja prijava"
+
+#: classes/pref/users.php:419 plugins/instances/init.php:334
+msgid "Click to edit"
+msgstr "Kliknite za urejanje"
+
+#: classes/pref/users.php:439
+msgid "No users defined."
+msgstr "Noben uporabnik ni določen."
+
+#: classes/pref/users.php:441
+msgid "No matching users found."
+msgstr "Ni najdenih  ujemajočih uporabnikov."
+
+#: classes/pref/labels.php:22 classes/pref/filters.php:270
+#: classes/pref/filters.php:727
+msgid "Caption"
+msgstr "Napis"
+
+#: classes/pref/labels.php:37
+msgid "Colors"
+msgstr "Barve"
+
+#: classes/pref/labels.php:42
+msgid "Foreground:"
+msgstr "Ospredje:"
+
+#: classes/pref/labels.php:42
+msgid "Background:"
+msgstr "Ozadje:"
+
+#: classes/pref/labels.php:232
+#, php-format
+msgid "Created label <b>%s</b>"
+msgstr "nalepka <b>%s</b> je ustvarjena"
+
+#: classes/pref/labels.php:287
+msgid "Clear colors"
+msgstr "Počisti barve"
+
+#: classes/pref/filters.php:94
+msgid "Articles matching this filter:"
+msgstr "Članki, ki se ujemajo s filtrom:"
+
+#: classes/pref/filters.php:135
+msgid "No recent articles matching this filter have been found."
+msgstr "Ni zadnjih člankov ujemanje ta filter je bilo ugotovljeno."
+
+#: classes/pref/filters.php:139
+msgid ""
+"Complex expressions might not give results while testing due to issues with "
+msgstr ""
+
+#: classes/pref/filters.php:276 classes/pref/filters.php:731
+#: classes/pref/filters.php:846
+msgid "Match"
+msgstr "Ujemanje"
+
+#: classes/pref/filters.php:290 classes/pref/filters.php:338
+#: classes/pref/filters.php:745 classes/pref/filters.php:772
+msgid "Add"
+msgstr "Dodaj"
+
+#: classes/pref/filters.php:324 classes/pref/filters.php:758
+msgid "Apply actions"
+msgstr "Uporabi aktivnost"
+
+#: classes/pref/filters.php:374 classes/pref/filters.php:787
+msgid "Enabled"
+msgstr "Omogočeno"
+
+#: classes/pref/filters.php:383 classes/pref/filters.php:790
+msgid "Match any rule"
+msgstr "Ujemanje z vsakim pravilom"
+
+#: classes/pref/filters.php:392 classes/pref/filters.php:793
+msgid "Inverse matching"
+msgstr "Obratno ujemanje"
+
+#: classes/pref/filters.php:404 classes/pref/filters.php:800
+msgid "Test"
+msgstr "Test"
+
+#: classes/pref/filters.php:437
+msgid "(inverse)"
+msgstr "(Inverzno)"
+
+#: classes/pref/filters.php:436
+#, php-format
+msgid "%s on %s in %s %s"
+msgstr "%s na %s v %s %s"
+
+#: classes/pref/filters.php:660
+msgid "Combine"
+msgstr "Združite"
+
+#: classes/pref/filters.php:666 classes/pref/feeds.php:1312
+#: classes/pref/feeds.php:1326
+msgid "Reset sort order"
+msgstr "Resetiraj vrstni red"
+
+#: classes/pref/filters.php:674 classes/pref/feeds.php:1348
+msgid "Rescore articles"
+msgstr "Ponovno točkovanje člankov"
+
+#: classes/pref/filters.php:803
+msgid "Create"
+msgstr "Ustvari"
+
+#: classes/pref/filters.php:858
+msgid "Inverse regular expression matching"
+msgstr "Obranjeno ujemanje regularnega izraza"
+
+#: classes/pref/filters.php:860
+msgid "on field"
+msgstr "na področju"
+
+#: classes/pref/filters.php:866 js/PrefFilterTree.js:53
+msgid "in"
+msgstr "v"
+
+#: classes/pref/filters.php:879
+msgid "Wiki: Filters"
+msgstr "Wiki: Filtri"
+
+#: classes/pref/filters.php:884
+msgid "Save rule"
+msgstr "Shranite pravilo"
+
+#: classes/pref/filters.php:884 js/functions.js:1015
+msgid "Add rule"
+msgstr "Dodaj pravilo"
+
+#: classes/pref/filters.php:907
+msgid "Perform Action"
+msgstr "Opravljanje aktivnosti"
+
+#: classes/pref/filters.php:933
+msgid "with parameters:"
+msgstr "s parametri:"
+
+#: classes/pref/filters.php:951
+msgid "Save action"
+msgstr "Shranite aktivnost"
+
+#: classes/pref/filters.php:951 js/functions.js:1041
+msgid "Add action"
+msgstr "Dodaj akcijo"
+
+#: classes/pref/filters.php:974
+msgid "[No caption]"
+msgstr ""
+
+#: classes/pref/filters.php:976
+#, php-format
+msgid "%s (%d rule)"
+msgid_plural "%s (%d rules)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/pref/filters.php:991
+#, php-format
+msgid "%s (+%d action)"
+msgid_plural "%s (+%d actions)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/pref/prefs.php:18
+msgid "General"
+msgstr "Splošno"
+
+#: classes/pref/prefs.php:19
+msgid "Interface"
+msgstr "Vmesnik"
+
+#: classes/pref/prefs.php:20
+msgid "Advanced"
+msgstr "Napredno"
+
+#: classes/pref/prefs.php:21
+msgid "Digest"
+msgstr "Digest"
+
+#: classes/pref/prefs.php:25
+msgid "Allow duplicate articles"
+msgstr "Dovoli podvojene članke"
+
+#: classes/pref/prefs.php:26
+msgid "Assign articles to labels automatically"
+msgstr "Samodejno dodeli člankd na etiketam"
+
+#: classes/pref/prefs.php:27
+msgid "Blacklisted tags"
+msgstr "oznake za črni seznam"
+
+#: classes/pref/prefs.php:27
+msgid ""
+"When auto-detecting tags in articles these tags will not be applied (comma-"
+"separated list)."
+msgstr ""
+
+#: classes/pref/prefs.php:28
+msgid "Automatically mark articles as read"
+msgstr "Samodejno označevanje ćlankov, kot so brani"
+
+#: classes/pref/prefs.php:28
+msgid ""
+"This option enables marking articles as read automatically while you scroll "
+"article list."
+msgstr ""
+
+#: classes/pref/prefs.php:29
+msgid "Automatically expand articles in combined mode"
+msgstr "Samodejno razširi članke v kombiniranem načinu"
+
+#: classes/pref/prefs.php:30
+msgid "Combined feed display"
+msgstr "Združeno so prikazani viri"
+
+#: classes/pref/prefs.php:30
+msgid ""
+"Display expanded list of feed articles, instead of separate displays for "
+"headlines and article content"
+msgstr ""
+
+#: classes/pref/prefs.php:31
+msgid "Confirm marking feed as read"
+msgstr "Potrdi označevanje krme kot prebrane"
+
+#: classes/pref/prefs.php:32
+msgid "Amount of articles to display at once"
+msgstr "Vsota člankov za prikaz na enkrat"
+
+#: classes/pref/prefs.php:33
+msgid "Default feed update interval"
+msgstr "Privzet Interval posodabljanja vira"
+
+#: classes/pref/prefs.php:33
+msgid ""
+"Shortest interval at which a feed will be checked for updates regardless of "
+"update method"
+msgstr ""
+
+#: classes/pref/prefs.php:34
+msgid "Mark articles in e-mail digest as read"
+msgstr "Označi člankov v e-pošti prebavljiv kot prebrane"
+
+#: classes/pref/prefs.php:35
+msgid "Enable e-mail digest"
+msgstr "Omogoči e-poštni digest"
+
+#: classes/pref/prefs.php:35
+msgid ""
+"This option enables sending daily digest of new (and unread) headlines on "
+"your configured e-mail address"
+msgstr ""
+
+#: classes/pref/prefs.php:36
+msgid "Try to send digests around specified time"
+msgstr "Poskusite poslati izvlečke ob določenem času"
+
+#: classes/pref/prefs.php:36
+msgid "Uses UTC timezone"
+msgstr "Uporablja UTC časovni pas"
+
+#: classes/pref/prefs.php:37
+msgid "Enable API access"
+msgstr "Omogoča  dostop do API"
+
+#: classes/pref/prefs.php:37
+msgid "Allows external clients to access this account through the API"
+msgstr "Omogoča zunanjim strankam dostop do tega računa prek API"
+
+#: classes/pref/prefs.php:38
+msgid "Enable feed categories"
+msgstr "Omogoči kategorije virov"
+
+#: classes/pref/prefs.php:39
+msgid "Sort feeds by unread articles count"
+msgstr "Razvrsti vire po številu neprebranih člankov"
+
+#: classes/pref/prefs.php:40
+msgid "Maximum age of fresh articles (in hours)"
+msgstr "Najvišja starost svežih člankov (v urah)"
+
+#: classes/pref/prefs.php:41
+msgid "Hide feeds with no unread articles"
+msgstr "Skrij vire brez neprebranih člankov"
+
+#: classes/pref/prefs.php:42
+msgid "Show special feeds when hiding read feeds"
+msgstr "Prikaži posebne vire, ko se skriva prebrane vire"
+
+#: classes/pref/prefs.php:43
+msgid "Long date format"
+msgstr "Format dolgega datuma"
+
+#: classes/pref/prefs.php:43
+msgid ""
+"The syntax used is identical to the PHP <a href='http://php.net/manual/"
+"function.date.php'>date()</a> function."
+msgstr ""
+
+#: classes/pref/prefs.php:44
+msgid "On catchup show next feed"
+msgstr "Pri zadetju pokaži naslednji vir"
+
+#: classes/pref/prefs.php:44
+msgid ""
+"Automatically open next feed with unread articles after marking one as read"
+msgstr ""
+
+#: classes/pref/prefs.php:45
+msgid "Purge articles after this number of days (0 - disables)"
+msgstr "Počisti članke po tem številu dni (0 - onemogoči)"
+
+#: classes/pref/prefs.php:46
+msgid "Purge unread articles"
+msgstr "Počisti neprebrane članke"
+
+#: classes/pref/prefs.php:47
+msgid "Reverse headline order (oldest first)"
+msgstr "Povratne headline red (najstarejše najprej)"
+
+#: classes/pref/prefs.php:48
+msgid "Short date format"
+msgstr "Format kratkega datuma"
+
+#: classes/pref/prefs.php:49
+msgid "Show content preview in headlines list"
+msgstr "Prikaži predogled vsebine na seznamu naslovnice"
+
+#: classes/pref/prefs.php:50
+msgid "Sort headlines by feed date"
+msgstr "Razvrsti naslovnice po datumu vira"
+
+#: classes/pref/prefs.php:50
+msgid "Use feed-specified date to sort headlines instead of local import date."
+msgstr ""
+"Uporabite določeni datuma vira za razvrstitev naslovnice namesto lokalnega "
+"datum uvoza."
+
+#: classes/pref/prefs.php:51
+msgid "Login with an SSL certificate"
+msgstr "Prijavi se s potrdilom SSL"
+
+#: classes/pref/prefs.php:51
+msgid "Click to register your SSL client certificate with tt-rss"
+msgstr "Klikni za registracijo potrdila SSL odjemalca s TT-rss"
+
+#: classes/pref/prefs.php:52
+msgid "Do not embed images in articles"
+msgstr "Ne vstavi slike v članke"
+
+#: classes/pref/prefs.php:53
+msgid "Strip unsafe tags from articles"
+msgstr "Posnemita nesigurne  oznake iz člankov"
+
+#: classes/pref/prefs.php:53
+msgid "Strip all but most common HTML tags when reading articles."
+msgstr "Posnemita vse, ampak najpogostejše HTML oznake pri branju člankov."
+
+#: classes/pref/prefs.php:54 js/prefs.js:1687
+msgid "Customize stylesheet"
+msgstr "Prilagodite slog"
+
+#: classes/pref/prefs.php:54
+msgid "Customize CSS stylesheet to your liking"
+msgstr "Prilagodite CSS slog po vaših željah"
+
+#: classes/pref/prefs.php:55
+msgid "Time zone"
+msgstr "Časovni pas"
+
+#: classes/pref/prefs.php:56
+msgid "Group headlines in virtual feeds"
+msgstr "Naslovi skupin v virtualnih virov"
+
+#: classes/pref/prefs.php:56
+msgid "Special feeds, labels, and categories are grouped by originating feeds"
+msgstr ""
+"Posebne Viri RSS, oznake in kategorije so razvrščene po virov s poreklom"
+
+#: classes/pref/prefs.php:57
+msgid "Language"
+msgstr "Jezik"
+
+#: classes/pref/prefs.php:58
+msgid "Theme"
+msgstr "Tema"
+
+#: classes/pref/prefs.php:58
+msgid "Select one of the available CSS themes"
+msgstr "Izberite eno od razpoložljivih CSS tem"
+
+#: classes/pref/prefs.php:69
+msgid "Old password cannot be blank."
+msgstr "Staro geslo ne sme biti prazno."
+
+#: classes/pref/prefs.php:74
+msgid "New password cannot be blank."
+msgstr "Novo geslo ne sme biti prazno."
+
+#: classes/pref/prefs.php:79
+msgid "Entered passwords do not match."
+msgstr "Vneseni gesli se ne ujemata."
+
+#: classes/pref/prefs.php:88
+msgid "Function not supported by authentication module."
+msgstr "Funkcija ni podprta z avtentifikacijo modula."
+
+#: classes/pref/prefs.php:127
+msgid "The configuration was saved."
+msgstr "Konfiguracija je shranjena."
+
+#: classes/pref/prefs.php:142
+#, php-format
+msgid "Unknown option: %s"
+msgstr "Neznano možnost:% s"
+
+#: classes/pref/prefs.php:156
+msgid "Your personal data has been saved."
+msgstr "Vaši osebni podatki so bili shranjeni."
+
+#: classes/pref/prefs.php:176
+msgid "Your preferences are now set to default values."
+msgstr "Vaše nastavitve so zdaj nastavljene na privzete vrednosti."
+
+#: classes/pref/prefs.php:198
+msgid "Personal data / Authentication"
+msgstr "Osebni podatki / Preverjanje pristnosti"
+
+#: classes/pref/prefs.php:218
+msgid "Personal data"
+msgstr "Osebni podatki"
+
+#: classes/pref/prefs.php:228
+msgid "Full name"
+msgstr "Polno ime"
+
+#: classes/pref/prefs.php:232
+msgid "E-mail"
+msgstr "E-pošta"
+
+#: classes/pref/prefs.php:238
+msgid "Access level"
+msgstr "Raven dostopa"
+
+#: classes/pref/prefs.php:248
+msgid "Save data"
+msgstr "Shranjevanje podatkov"
+
+#: classes/pref/prefs.php:267
+msgid "Your password is at default value, please change it."
+msgstr "Vaše geslo je na privzeto vrednost, prosimo da ga spremenite."
+
+#: classes/pref/prefs.php:294
+msgid "Changing your current password will disable OTP."
+msgstr "Spreminjanje trenutnega geslo bo onemogočilo OTP."
+
+#: classes/pref/prefs.php:299
+msgid "Old password"
+msgstr "Staro geslo"
+
+#: classes/pref/prefs.php:302
+msgid "New password"
+msgstr "Novo geslo"
+
+#: classes/pref/prefs.php:307
+msgid "Confirm password"
+msgstr "Potrdi geslo"
+
+#: classes/pref/prefs.php:317
+msgid "Change password"
+msgstr "Spremeni geslo"
+
+#: classes/pref/prefs.php:323
+msgid "One time passwords / Authenticator"
+msgstr "Enkratno geslo / Preverjanje pristnosti"
+
+#: classes/pref/prefs.php:327
+msgid ""
+"One time passwords are currently enabled. Enter your current password below "
+"to disable."
+msgstr ""
+
+#: classes/pref/prefs.php:352 classes/pref/prefs.php:403
+msgid "Enter your password"
+msgstr "Vnesite geslo"
+
+#: classes/pref/prefs.php:363
+msgid "Disable OTP"
+msgstr "Onemogoči OTP"
+
+#: classes/pref/prefs.php:369
+msgid ""
+"You will need a compatible Authenticator to use this. Changing your password "
+"would automatically disable OTP."
+msgstr ""
+
+#: classes/pref/prefs.php:371
+msgid "Scan the following code by the Authenticator application:"
+msgstr "Scan naslednje kode z uporabo Overovitelj:"
+
+#: classes/pref/prefs.php:408
+msgid "Enter the generated one time password"
+msgstr "Vnesite generirano enkratno geslo"
+
+#: classes/pref/prefs.php:422
+msgid "Enable OTP"
+msgstr "Omogoči OTP"
+
+#: classes/pref/prefs.php:428
+msgid "PHP GD functions are required for OTP support."
+msgstr "PHP GD funkcije so potrebne za OTP podporo."
+
+#: classes/pref/prefs.php:471
+msgid "Some preferences are only available in default profile."
+msgstr "Nekatere nastavitve so na voljo samo v privzetem profilu."
+
+#: classes/pref/prefs.php:569
+msgid "Customize"
+msgstr "Prilagajanje"
+
+#: classes/pref/prefs.php:629
+msgid "Register"
+msgstr "Registracija"
+
+#: classes/pref/prefs.php:633
+msgid "Clear"
+msgstr "Počisti"
+
+#: classes/pref/prefs.php:639
+#, php-format
+msgid "Current server time: %s (UTC)"
+msgstr "Trenutni čas strežnika:% s (UTC)"
+
+#: classes/pref/prefs.php:671
+msgid "Save configuration"
+msgstr "Shranite konfiguracijo"
+
+#: classes/pref/prefs.php:675
+msgid "Save and exit preferences"
+msgstr "Shranite in zapustite nastavitve"
+
+#: classes/pref/prefs.php:680
+msgid "Manage profiles"
+msgstr "Upravljanje profilov"
+
+#: classes/pref/prefs.php:683
+msgid "Reset to defaults"
+msgstr "Povrni privzete"
+
+#: classes/pref/prefs.php:706
+msgid "Plugins"
+msgstr "Plugins"
+
+#: classes/pref/prefs.php:708
+msgid ""
+"You will need to reload Tiny Tiny RSS for plugin changes to take effect."
+msgstr ""
+
+#: classes/pref/prefs.php:710
+msgid ""
+"Download more plugins at tt-rss.org <a class=\"visibleLink\" target=\"_blank"
+"\" href=\"http://tt-rss.org/forum/viewforum.php?f=22\">forums</a> or <a "
+"target=\"_blank\" class=\"visibleLink\" href=\"http://tt-rss.org/wiki/Plugins"
+"\">wiki</a>."
+msgstr ""
+
+#: classes/pref/prefs.php:736
+msgid "System plugins"
+msgstr "Sistemske vtičniki"
+
+#: classes/pref/prefs.php:740 classes/pref/prefs.php:796
+msgid "Plugin"
+msgstr "Vtričnik"
+
+#: classes/pref/prefs.php:741 classes/pref/prefs.php:797
+msgid "Description"
+msgstr "Opis"
+
+#: classes/pref/prefs.php:742 classes/pref/prefs.php:798
+msgid "Version"
+msgstr "Različica"
+
+#: classes/pref/prefs.php:743 classes/pref/prefs.php:799
+msgid "Author"
+msgstr "Avtor"
+
+#: classes/pref/prefs.php:774 classes/pref/prefs.php:833
+msgid "more info"
+msgstr "več info"
+
+#: classes/pref/prefs.php:783 classes/pref/prefs.php:842
+msgid "Clear data"
+msgstr "Počisti podatke"
+
+#: classes/pref/prefs.php:792
+msgid "User plugins"
+msgstr "Uporabniški vtičniki"
+
+#: classes/pref/prefs.php:857
+msgid "Enable selected plugins"
+msgstr "Omogoči izbrane vtiče"
+
+#: classes/pref/prefs.php:924
+msgid "Incorrect one time password"
+msgstr "Nepravilno enkratno geslo"
+
+#: classes/pref/prefs.php:927 classes/pref/prefs.php:944
+msgid "Incorrect password"
+msgstr "Nepravilno geslo"
+
+#: classes/pref/prefs.php:969
+#, php-format
+msgid ""
+"You can override colors, fonts and layout of your currently selected theme "
+"with custom CSS declarations here. <a target=\"_blank\" class=\"visibleLink"
+"\" href=\"%s\">This file</a> can be used as a baseline."
+msgstr ""
+
+#: classes/pref/prefs.php:1009
+msgid "Create profile"
+msgstr "Ustvari profil"
+
+#: classes/pref/prefs.php:1032 classes/pref/prefs.php:1060
+msgid "(active)"
+msgstr "(Aktivno)"
+
+#: classes/pref/prefs.php:1094
+msgid "Remove selected profiles"
+msgstr "Odstrani izbrane profile"
+
+#: classes/pref/prefs.php:1096
+msgid "Activate profile"
+msgstr "Vključite profil"
+
+#: classes/pref/feeds.php:13
+msgid "Check to enable field"
+msgstr "Preverite, da se omogoči polje"
+
+#: classes/pref/feeds.php:62 classes/pref/feeds.php:211
+#: classes/pref/feeds.php:255 classes/pref/feeds.php:261
+#: classes/pref/feeds.php:287
+#, php-format
+msgid "(%d feed)"
+msgid_plural "(%d feeds)"
+msgstr[0] "(%d vir)"
+msgstr[1] "(%d viri)"
+
+#: classes/pref/feeds.php:555
+msgid "Feed Title"
+msgstr "Naslov vira"
+
+#: classes/pref/feeds.php:597 classes/pref/feeds.php:811
+msgid "Update"
+msgstr "Posodobi"
+
+#: classes/pref/feeds.php:612 classes/pref/feeds.php:827
+msgid "Article purging:"
+msgstr "Brisanje članka:"
+
+#: classes/pref/feeds.php:642
+msgid ""
+"<b>Hint:</b> you need to fill in your login information if your feed "
+"requires authentication, except for Twitter feeds."
+msgstr ""
+
+#: classes/pref/feeds.php:658 classes/pref/feeds.php:856
+msgid "Hide from Popular feeds"
+msgstr "Skriti pred Popular virov"
+
+#: classes/pref/feeds.php:670 classes/pref/feeds.php:862
+msgid "Include in e-mail digest"
+msgstr "Vključiti v e-poštnem Digest"
+
+#: classes/pref/feeds.php:683 classes/pref/feeds.php:868
+msgid "Always display image attachments"
+msgstr "Vedno prikaz slike priponk"
+
+#: classes/pref/feeds.php:696 classes/pref/feeds.php:876
+msgid "Do not embed images"
+msgstr "Ne embed slik"
+
+#: classes/pref/feeds.php:709 classes/pref/feeds.php:884
+msgid "Cache images locally"
+msgstr "Predpomnilnika slik lokalno"
+
+#: classes/pref/feeds.php:721 classes/pref/feeds.php:890
+msgid "Mark updated articles as unread"
+msgstr "Označite posodobljene izdelke, kot neprebrano"
+
+#: classes/pref/feeds.php:727
+msgid "Icon"
+msgstr "Ikona"
+
+#: classes/pref/feeds.php:741
+msgid "Replace"
+msgstr "Zamenjajte"
+
+#: classes/pref/feeds.php:763
+msgid "Resubscribe to push updates"
+msgstr "Ponovno naroči za vslitev posodobitev"
+
+#: classes/pref/feeds.php:770
+msgid "Resets PubSubHubbub subscription status for push-enabled feeds."
+msgstr "Status naročnina Ponastavi PubSubHubbub za potisnih omogočen vire."
+
+#: classes/pref/feeds.php:1145 classes/pref/feeds.php:1198
+msgid "All done."
+msgstr "Vse opravljeno."
+
+#: classes/pref/feeds.php:1253
+msgid "Feeds with errors"
+msgstr "Viri z napakami"
+
+#: classes/pref/feeds.php:1273
+msgid "Inactive feeds"
+msgstr "Neaktivni viri"
+
+#: classes/pref/feeds.php:1310
+msgid "Edit selected feeds"
+msgstr "Urejate izbrane vire"
+
+#: classes/pref/feeds.php:1314 js/prefs.js:1732
+msgid "Batch subscribe"
+msgstr "Naroči v ozadju"
+
+#: classes/pref/feeds.php:1321
+msgid "Categories"
+msgstr "Kategorije"
+
+#: classes/pref/feeds.php:1324
+msgid "Add category"
+msgstr "Dodaj kategorijo"
+
+#: classes/pref/feeds.php:1328
+msgid "Remove selected"
+msgstr "Odstrani izbrano"
+
+#: classes/pref/feeds.php:1339
+msgid "More actions..."
+msgstr "Več dejanj ..."
+
+#: classes/pref/feeds.php:1343
+msgid "Manual purge"
+msgstr "Navodilo za čiščenje"
+
+#: classes/pref/feeds.php:1347
+msgid "Clear feed data"
+msgstr "Počisti podatke vira"
+
+#: classes/pref/feeds.php:1398
+msgid "OPML"
+msgstr "OPML"
+
+#: classes/pref/feeds.php:1400
+msgid ""
+"Using OPML you can export and import your feeds, filters, labels and Tiny "
+"Tiny RSS settings."
+msgstr ""
+"Using OPML you can export and import your feeds, filters, labels and Tiny "
+"Tiny RSS nastavitve."
+
+#: classes/pref/feeds.php:1400
+msgid "Only main settings profile can be migrated using OPML."
+msgstr "Edina glavna nastavitve profila lahko selili s pomočjo OPML."
+
+#: classes/pref/feeds.php:1413
+msgid "Import my OPML"
+msgstr "Uvozi svoj OPML"
+
+#: classes/pref/feeds.php:1417
+msgid "Filename:"
+msgstr "Ime datoteke:"
+
+#: classes/pref/feeds.php:1419
+msgid "Include settings"
+msgstr "Vključi nastavitve"
+
+#: classes/pref/feeds.php:1423
+msgid "Export OPML"
+msgstr "Izvoz OPML"
+
+#: classes/pref/feeds.php:1427
+msgid ""
+"Your OPML can be published publicly and can be subscribed by anyone who "
+"knows the URL below."
+msgstr ""
+
+#: classes/pref/feeds.php:1429
+msgid ""
+"Published OPML does not include your Tiny Tiny RSS settings, feeds that "
+"require authentication or feeds hidden from Popular feeds."
+msgstr ""
+
+#: classes/pref/feeds.php:1431
+msgid "Public OPML URL"
+msgstr "Javnni OPML URL"
+
+#: classes/pref/feeds.php:1432
+msgid "Display published OPML URL"
+msgstr "Prikaz objavljenega OPML URL"
+
+#: classes/pref/feeds.php:1441
+msgid "Firefox integration"
+msgstr "Firefox integracija"
+
+#: classes/pref/feeds.php:1443
+msgid ""
+"This Tiny Tiny RSS site can be used as a Firefox Feed Reader by clicking the "
+"link below."
+msgstr ""
+
+#: classes/pref/feeds.php:1450
+msgid "Click here to register this site as a feed reader."
+msgstr "Kliknite tukaj za registracijo te spletne strani, kot bralnik vira."
+
+#: classes/pref/feeds.php:1458
+msgid "Published & shared articles / Generated feeds"
+msgstr "Objavljenih & deljenih člankov / Splošni Viri"
+
+#: classes/pref/feeds.php:1460
+msgid ""
+"Published articles are exported as a public RSS feed and can be subscribed "
+"by anyone who knows the URL specified below."
+msgstr ""
+
+#: classes/pref/feeds.php:1468
+msgid "Display URL"
+msgstr "Prikaz URL"
+
+#: classes/pref/feeds.php:1471
+msgid "Clear all generated URLs"
+msgstr "Počistiti vse ustvarjene URL-je"
+
+#: classes/pref/feeds.php:1549
+msgid ""
+"These feeds have not been updated with new content for 3 months (oldest "
+"first):"
+msgstr ""
+
+#: classes/pref/feeds.php:1585 classes/pref/feeds.php:1651
+msgid "Click to edit feed"
+msgstr "Kliknite za urejanje vira"
+
+#: classes/pref/feeds.php:1603 classes/pref/feeds.php:1671
+msgid "Unsubscribe from selected feeds"
+msgstr "Odjava iz izbranih virov"
+
+#: classes/pref/feeds.php:1776
+msgid "Add one valid RSS feed per line (no feed detection is done)"
+msgstr ""
+"Dodajte en  veljaven  RSS vir na vrstico (preverjanje vira ni narejeno)"
+
+#: classes/pref/feeds.php:1785
+msgid "Feeds to subscribe, One per line"
+msgstr "Viri za naročilo, en na vrstico"
+
+#: classes/pref/feeds.php:1807
+msgid "Feeds require authentication."
+msgstr "Viri zahtevajo preverjanje pristnosti."
+
+#: classes/pref/system.php:29
+msgid "Error Log"
+msgstr "Dnevnik napak"
+
+#: classes/pref/system.php:40
+msgid "Refresh"
+msgstr "Osvežite"
+
+#: classes/pref/system.php:43
+msgid "Clear log"
+msgstr "Počisti dnevnik"
+
+#: classes/pref/system.php:48
+msgid "Error"
+msgstr "Napaka"
+
+#: classes/pref/system.php:49
+msgid "Filename"
+msgstr "Ime datoteke"
+
+#: classes/pref/system.php:50
+msgid "Message"
+msgstr "Sporočilo"
+
+#: classes/pref/system.php:52
+msgid "Date"
+msgstr "Datum"
+
+#: plugins/close_button/init.php:22
+msgid "Close article"
+msgstr "Zapri članek"
+
+#: plugins/nsfw/init.php:30 plugins/nsfw/init.php:42
+msgid "Not work safe (click to toggle)"
+msgstr "Ne deluje varno (klikni za preklop)"
+
+#: plugins/nsfw/init.php:52
+msgid "NSFW Plugin"
+msgstr "NSFW Vtičnik"
+
+#: plugins/nsfw/init.php:79
+msgid "Tags to consider NSFW (comma-separated)"
+msgstr "Oznake z upoštevanjem NSFW (ločenih z vejico)"
+
+#: plugins/nsfw/init.php:100
+msgid "Configuration saved."
+msgstr "Konfiguracija shranjena."
+
+#: plugins/auth_internal/init.php:62
+msgid "Please enter your one time password:"
+msgstr "Vpišite svoje enkratno geslo:"
+
+#: plugins/auth_internal/init.php:185
+msgid "Password has been changed."
+msgstr "Geslo je bilo spremenjeno."
+
+#: plugins/auth_internal/init.php:187
+msgid "Old password is incorrect."
+msgstr "Staro geslo ni pravilno."
+
+#: plugins/mailto/init.php:49 plugins/mailto/init.php:55
+#: plugins/mail/init.php:64 plugins/mail/init.php:70
+msgid "[Forwarded]"
+msgstr "[Posredovano]"
+
+#: plugins/mailto/init.php:49 plugins/mail/init.php:64
+msgid "Multiple articles"
+msgstr "Več člankov"
+
+#: plugins/mailto/init.php:71
+msgid "Clicking the following link to invoke your mail client:"
+msgstr ""
+"Kliknite na spodnjo povezavo, za vključitev svojega poštnega odjemalca:"
+
+#: plugins/mailto/init.php:75
+msgid "Forward selected article(s) by email."
+msgstr "Posredovanje izberanega članka(ov) po elektronski pošti."
+
+#: plugins/mailto/init.php:78
+msgid ""
+"You should be able to edit the message before sending in your mail client."
+msgstr ""
+
+#: plugins/mailto/init.php:83
+msgid "Close this dialog"
+msgstr "Zapri to okno"
+
+#: plugins/bookmarklets/init.php:20
+msgid "Bookmarklets"
+msgstr ""
+
+#: plugins/bookmarklets/init.php:22
+msgid ""
+"Drag the link below to your browser toolbar, open the feed you're interested "
+"in in your browser and click on the link to subscribe to it."
+msgstr ""
+
+#: plugins/bookmarklets/init.php:26
+#, php-format
+msgid "Subscribe to %s in Tiny Tiny RSS?"
+msgstr "%s v Tiny Tiny RSS naročiti?"
+
+#: plugins/bookmarklets/init.php:31
+msgid "Subscribe in Tiny Tiny RSS"
+msgstr "Naročite se na Tiny Tiny RSS"
+
+#: plugins/bookmarklets/init.php:34
+msgid "Use this bookmarklet to publish arbitrary pages using Tiny Tiny RSS"
+msgstr ""
+"Uporabite ta zaznamek za objavo poljubnih strani s pomočjo Tiny Tiny RSS"
+
+#: plugins/import_export/init.php:58
+msgid "Import and export"
+msgstr "Uvoz in izvoz"
+
+#: plugins/import_export/init.php:60
+msgid ""
+"You can export and import your Starred and Archived articles for safekeeping "
+"or when migrating between tt-rss instances of same version."
+msgstr ""
+
+#: plugins/import_export/init.php:65
+msgid "Export my data"
+msgstr "Izvozi moje podatke"
+
+#: plugins/import_export/init.php:81
+msgid "Import"
+msgstr "Uvoz"
+
+#: plugins/import_export/init.php:219
+msgid "Could not import: incorrect schema version."
+msgstr "Ni bilo mogoče uvoziti: napačna različica sheme."
+
+#: plugins/import_export/init.php:224
+msgid "Could not import: unrecognized document format."
+msgstr "Ni bilo mogoče uvoziti: neprepoznan format dokumentov."
+
+#: plugins/import_export/init.php:383
+msgid "Finished: "
+msgstr "Končano:"
+
+#: plugins/import_export/init.php:384
+#, php-format
+msgid "%d article processed, "
+msgid_plural "%d articles processed, "
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/import_export/init.php:385
+#, php-format
+msgid "%d imported, "
+msgid_plural "%d imported, "
+msgstr[0] "%d uvožen,"
+msgstr[1] "%d uvoženi,"
+
+#: plugins/import_export/init.php:386
+#, php-format
+msgid "%d feed created."
+msgid_plural "%d feeds created."
+msgstr[0] "%d vir kreiran."
+msgstr[1] "%d virov kreiranih."
+
+#: plugins/import_export/init.php:391
+msgid "Could not load XML document."
+msgstr "Dokumenta XML ni bilo mogoče naložiti."
+
+#: plugins/import_export/init.php:403
+msgid "Prepare data"
+msgstr "Priprava podatkov"
+
+#: plugins/import_export/init.php:446 plugins/googlereaderimport/init.php:92
+msgid "No file uploaded."
+msgstr "Nobena datoteka ni naložena."
+
+#: plugins/mail/init.php:90
+msgid "From:"
+msgstr "Od:"
+
+#: plugins/mail/init.php:99
+msgid "To:"
+msgstr "Za:"
+
+#: plugins/mail/init.php:112
+msgid "Subject:"
+msgstr "Zadeva:"
+
+#: plugins/mail/init.php:128
+msgid "Send e-mail"
+msgstr "Pošlji e-pošto"
+
+#: plugins/note/init.php:26 plugins/note/note.js:11
+msgid "Edit article note"
+msgstr "Uredi opombo članka"
+
+#: plugins/googlereaderimport/init.php:179
+#, php-format
+msgid "All done. %d out of %d articles imported."
+msgstr "Vse opravljeno. %d od %d člankov uvoženih."
+
+#: plugins/googlereaderimport/init.php:183
+msgid "The document has incorrect format."
+msgstr "Dokument ima nepravilno obliko."
+
+#: plugins/googlereaderimport/init.php:354
+msgid "Import starred or shared items from Google Reader"
+msgstr "Uvoz ozvezdenih ali deljenih predmetov iz Google Reader"
+
+#: plugins/googlereaderimport/init.php:358
+msgid "Paste your starred.json or shared.json into the form below."
+msgstr "Prilepite starred.json ali shared.json v obrazec spodaj."
+
+#: plugins/googlereaderimport/init.php:372
+msgid "Import my Starred items"
+msgstr "Uvoz mojih postavk označennih z zvezdico"
+
+#: plugins/vf_shared/init.php:16 plugins/vf_shared/init.php:54
+msgid "Shared articles"
+msgstr "Deljeni članki"
+
+#: plugins/instances/init.php:141
+msgid "Linked"
+msgstr "Povezano"
+
+#: plugins/instances/init.php:204 plugins/instances/init.php:395
+msgid "Instance"
+msgstr "Instanca"
+
+#: plugins/instances/init.php:215 plugins/instances/init.php:312
+#: plugins/instances/init.php:404
+msgid "Instance URL"
+msgstr "Primerek URL"
+
+#: plugins/instances/init.php:226 plugins/instances/init.php:414
+msgid "Access key:"
+msgstr "Tipka za dostop:"
+
+#: plugins/instances/init.php:229 plugins/instances/init.php:313
+#: plugins/instances/init.php:417
+msgid "Access key"
+msgstr "Tipka za dostop"
+
+#: plugins/instances/init.php:233 plugins/instances/init.php:421
+msgid "Use one access key for both linked instances."
+msgstr "Uporabite eno tipko za dostop za obe povezanih primerih."
+
+#: plugins/instances/init.php:241 plugins/instances/init.php:429
+msgid "Generate new key"
+msgstr "Ustvari nov ključ"
+
+#: plugins/instances/init.php:292
+msgid "Link instance"
+msgstr "Povezava instance"
+
+#: plugins/instances/init.php:304
+msgid ""
+"You can connect other instances of Tiny Tiny RSS to this one to share "
+"Popular feeds. Link to this instance of Tiny Tiny RSS by using this URL:"
+msgstr ""
+
+#: plugins/instances/init.php:314
+msgid "Last connected"
+msgstr "Zadnja povezan"
+
+#: plugins/instances/init.php:315
+msgid "Status"
+msgstr "Status"
+
+#: plugins/instances/init.php:316
+msgid "Stored feeds"
+msgstr "Shranjeni viri"
+
+#: plugins/instances/init.php:433
+msgid "Create link"
+msgstr "Kreiranje povezave"
+
+#: plugins/share/init.php:39
+msgid "You can disable all articles shared by unique URLs here."
+msgstr "Lahko onemogočite vse članke, ki jih unikatnih URL-jih delijo tukaj."
+
+#: plugins/share/init.php:44
+msgid "Unshare all articles"
+msgstr "Odvzemi skupno rabo za vse članke"
+
+#: plugins/share/init.php:77
+msgid "Share by URL"
+msgstr "delitev z URL"
+
+#: plugins/share/init.php:99
+msgid "You can share this article by the following unique URL:"
+msgstr "Lahko delite ta članek z naslednjim edinstven URL:"
+
+#: plugins/share/init.php:117
+msgid "Unshare article"
+msgstr "Oddeli  članke"
+
+#: plugins/updater/init.php:323 plugins/updater/init.php:340
+#: plugins/updater/updater.js:10
+msgid "Update Tiny Tiny RSS"
+msgstr "Posodobite Tiny Tiny RSS"
+
+#: plugins/updater/init.php:343
+msgid "Your Tiny Tiny RSS installation is up to date."
+msgstr "Vaš Tiny Tiny RSS namestitev do datuma."
+
+#: plugins/updater/init.php:346
+msgid "Force update"
+msgstr "Posodobitev Force"
+
+#: plugins/updater/init.php:355
+msgid "Do not close this dialog until updating is finished."
+msgstr "Ne zaprite to pogovorno okno, dokler se posodabljanje končalo."
+
+#: plugins/updater/init.php:364
+msgid "It is suggested to backup your tt-rss directory first."
+msgstr "Predlagano je, da varnostno kopijo vaše tt-rss imeniku prvi."
+
+#: plugins/updater/init.php:365
+msgid "Your database will not be modified."
+msgstr "Vaša podatkovna baza ne bo spremenjen."
+
+#: plugins/updater/init.php:366
+msgid ""
+"Your current tt-rss installation directory will not be modified. It will be "
+"renamed and left in the parent directory. You will be able to migrate all "
+"your customized files after update finishes."
+msgstr ""
+
+#: plugins/updater/init.php:367
+msgid "Ready to update."
+msgstr "Pripravljen za posodobljanje."
+
+#: plugins/updater/init.php:372
+msgid "Start update"
+msgstr "Začni posodabljanje"
+
+#: js/feedlist.js:406 js/feedlist.js:434
+msgid "Mark all articles in %s as read?"
+msgstr "Označi vse članke %s, da so prebrani?"
+
+#: js/feedlist.js:425
+msgid "Mark all articles in %s older than 1 day as read?"
+msgstr "Označi vse članke %s starejše od 1 dneva, da so prebrani?"
+
+#: js/feedlist.js:428
+msgid "Mark all articles in %s older than 1 week as read?"
+msgstr "Označi vse članke %s starejše od 1 tedna, da so prebrani?"
+
+#: js/feedlist.js:431
+msgid "Mark all articles in %s older than 2 weeks as read?"
+msgstr "Označi vse članke %s starejše od 2 tednov, da so prebrani?"
+
+#: js/functions.js:65
+msgid "The error will be reported to the configured log destination."
+msgstr "Napaka bo sporočena v nastavljen dnevnika."
+
+#: js/functions.js:107 js/functions.js:236
+msgid "Click to close"
+msgstr "Kliknite, da zaprete"
+
+#: js/functions.js:612
+msgid "Error explained"
+msgstr "Napaka je pojasnena"
+
+#: js/functions.js:694
+msgid "Upload complete."
+msgstr "Nalaganje je končano."
+
+#: js/functions.js:718
+msgid "Remove stored feed icon?"
+msgstr "Odstrani shranjeno ikono vira?"
+
+#: js/functions.js:723
+msgid "Removing feed icon..."
+msgstr "Odstranjevanje ikone vira"
+
+#: js/functions.js:728
+msgid "Feed icon removed."
+msgstr "Ikona vira je odstranjena"
+
+#: js/functions.js:750
+msgid "Please select an image file to upload."
+msgstr "Izberite slikovno datoteko za nalaganje."
+
+#: js/functions.js:752
+msgid "Upload new icon for this feed?"
+msgstr "Naložite novo ikono za ta vir"
+
+#: js/functions.js:753
+msgid "Uploading, please wait..."
+msgstr "Nalaganje, prosimo počakajte ..."
+
+#: js/functions.js:769
+msgid "Please enter label caption:"
+msgstr "Vnesite  naslov nalepke:"
+
+#: js/functions.js:774
+msgid "Can't create label: missing caption."
+msgstr "Ni mogoče ustvariti oznake: manjka naslov."
+
+#: js/functions.js:817
+msgid "Subscribe to Feed"
+msgstr "Naročite se na vir"
+
+#: js/functions.js:844
+msgid "Subscribed to %s"
+msgstr "Naročen na %s"
+
+#: js/functions.js:849
+msgid "Specified URL seems to be invalid."
+msgstr "Določen  URL Izgleda, da je neveljaven."
+
+#: js/functions.js:852
+msgid "Specified URL doesn't seem to contain any feeds."
+msgstr "Določen  URL se   zdi, da  ne vsebuje noben  vir"
+
+#: js/functions.js:864
+msgid "Expand to select feed"
+msgstr "Razširite da izberete vir"
+
+#: js/functions.js:876
+msgid "Couldn't download the specified URL: %s"
+msgstr "Ni bilo mogoče prenesti določen URL: %s"
+
+#: js/functions.js:880
+msgid "XML validation failed: %s"
+msgstr "Validacija XML ni uspela: %s"
+
+#: js/functions.js:885
+msgid "You are already subscribed to this feed."
+msgstr "Ste že naročeni na ta vir."
+
+#: js/functions.js:1015
+msgid "Edit rule"
+msgstr "Uredi pravilo"
+
+#: js/functions.js:1041
+msgid "Edit action"
+msgstr "Urejdi aktivnosti"
+
+#: js/functions.js:1078
+msgid "Create Filter"
+msgstr "Ustvari filter"
+
+#: js/functions.js:1208
+msgid ""
+"Reset subscription? Tiny Tiny RSS will try to subscribe to the notification "
+"hub again on next feed update."
+msgstr ""
+
+#: js/functions.js:1219
+msgid "Subscription reset."
+msgstr "Naročnina obnovljena."
+
+#: js/functions.js:1229 js/tt-rss.js:684
+msgid "Unsubscribe from %s?"
+msgstr "Odjavi se od %s?"
+
+#: js/functions.js:1232
+msgid "Removing feed..."
+msgstr "Odstranjevanje vira ..."
+
+#: js/functions.js:1341
+msgid "Please enter category title:"
+msgstr "Vnesite naslov kategorije:"
+
+#: js/functions.js:1372
+msgid "Generate new syndication address for this feed?"
+msgstr "Ustvari nove syndication naslov za ta vir?"
+
+#: js/functions.js:1376 js/prefs.js:1218
+msgid "Trying to change address..."
+msgstr "Poskus, da bi spremenili naslov ..."
+
+#: js/functions.js:1563 js/tt-rss.js:425 js/tt-rss.js:665
+msgid "You can't edit this kind of feed."
+msgstr "Ne moreš urejati te vrste vira."
+
+#: js/functions.js:1578
+msgid "Edit Feed"
+msgstr "Urejanje vira"
+
+#: js/functions.js:1584 js/prefs.js:99 js/prefs.js:211 js/prefs.js:736
+msgid "Saving data..."
+msgstr "Shranjevanje podatkov ..."
+
+#: js/functions.js:1616
+msgid "More Feeds"
+msgstr "Več virov RSS"
+
+#: js/functions.js:1677 js/functions.js:1787 js/prefs.js:414 js/prefs.js:444
+#: js/prefs.js:476 js/prefs.js:629 js/prefs.js:649 js/prefs.js:1194
+#: js/prefs.js:1339
+msgid "No feeds are selected."
+msgstr "Nič virov ni izbranih."
+
+#: js/functions.js:1719
+msgid ""
+"Remove selected feeds from the archive? Feeds with stored articles will not "
+"be removed."
+msgstr ""
+
+#: js/functions.js:1758
+msgid "Feeds with update errors"
+msgstr "Viri RSS z napakami posodabljanja"
+
+#: js/functions.js:1769 js/prefs.js:1176
+msgid "Remove selected feeds?"
+msgstr "Odstrani izbrane vire?"
+
+#: js/functions.js:1772 js/prefs.js:1179
+msgid "Removing selected feeds..."
+msgstr "Odstranjevanje izbranih virov ..."
+
+#: js/functions.js:1870
+msgid "Help"
+msgstr "Pomoč"
+
+#: js/PrefFeedTree.js:48
+msgid "Edit category"
+msgstr "Uredi kategorijo"
+
+#: js/PrefFeedTree.js:55
+msgid "Remove category"
+msgstr "Odstranite kategorijo"
+
+#: js/PrefFilterTree.js:56
+msgid "Inverse"
+msgstr "Obratno"
+
+#: js/prefs.js:55
+msgid "Please enter login:"
+msgstr "Prosimo, vnesite podatke za prijavo:"
+
+#: js/prefs.js:62
+msgid "Can't create user: no login specified."
+msgstr "Ne morete ustvariti uporabnika:  prijava ni določena."
+
+#: js/prefs.js:66
+msgid "Adding user..."
+msgstr "Dodajanje uporabnika ..."
+
+#: js/prefs.js:94
+msgid "User Editor"
+msgstr "Urejevalnik Uporabnika"
+
+#: js/prefs.js:134
+msgid "Edit Filter"
+msgstr "Uredi Filter"
+
+#: js/prefs.js:181
+msgid "Remove filter?"
+msgstr "Odstrani filter?"
+
+#: js/prefs.js:186
+msgid "Removing filter..."
+msgstr "Odstranjevanje filtra ..."
+
+#: js/prefs.js:296
+msgid "Remove selected labels?"
+msgstr "Odstrani izbrane oznake?"
+
+#: js/prefs.js:299
+msgid "Removing selected labels..."
+msgstr "Odstranjevanje izbranih etiket ..."
+
+#: js/prefs.js:312 js/prefs.js:1380
+msgid "No labels are selected."
+msgstr "Nobene nalepke ni izbrane."
+
+#: js/prefs.js:326
+msgid ""
+"Remove selected users? Neither default admin nor your account will be "
+"removed."
+msgstr ""
+
+#: js/prefs.js:329
+msgid "Removing selected users..."
+msgstr "Odstranjevanje izbranih uporabnikov ..."
+
+#: js/prefs.js:343 js/prefs.js:487 js/prefs.js:508 js/prefs.js:547
+msgid "No users are selected."
+msgstr "Noben Uporabnik ni izbran."
+
+#: js/prefs.js:361
+msgid "Remove selected filters?"
+msgstr "Odstrani izbrane filtre?"
+
+#: js/prefs.js:364
+msgid "Removing selected filters..."
+msgstr "Odstranjevanje izbranih filtrov ..."
+
+#: js/prefs.js:376 js/prefs.js:584 js/prefs.js:603
+msgid "No filters are selected."
+msgstr "Noben filter ni izbran."
+
+#: js/prefs.js:395
+msgid "Unsubscribe from selected feeds?"
+msgstr "Odjava od izbranih virov?"
+
+#: js/prefs.js:399
+msgid "Unsubscribing from selected feeds..."
+msgstr "Odjavo iz izbranih virov ..."
+
+#: js/prefs.js:429
+msgid "Please select only one feed."
+msgstr "Prosimo, izberite samo en vir."
+
+#: js/prefs.js:435
+msgid "Erase all non-starred articles in selected feed?"
+msgstr "Izbriši vse članke, ki niso označene z zvezdico v izbranem viru?"
+
+#: js/prefs.js:438
+msgid "Clearing selected feed..."
+msgstr "Počisti izbrani vir ..."
+
+#: js/prefs.js:457
+msgid "How many days of articles to keep (0 - use default)?"
+msgstr "Koliko dni se hrani članke (0 - privzeta uporaba)?"
+
+#: js/prefs.js:460
+msgid "Purging selected feed..."
+msgstr "Brisanje izbranega vira..."
+
+#: js/prefs.js:492 js/prefs.js:513 js/prefs.js:552
+msgid "Please select only one user."
+msgstr "Prosimo, izberite samo enega uporabnika."
+
+#: js/prefs.js:517
+msgid "Reset password of selected user?"
+msgstr "Ponastavi geslo izbranega uporabnika?"
+
+#: js/prefs.js:520
+msgid "Resetting password for selected user..."
+msgstr "Ponastavitvi gesla za izbrane uporabnike ..."
+
+#: js/prefs.js:565
+msgid "User details"
+msgstr "Podrobnosti uporabnika"
+
+#: js/prefs.js:589
+msgid "Please select only one filter."
+msgstr "Prosimo, izberite samo en filter."
+
+#: js/prefs.js:607
+msgid "Combine selected filters?"
+msgstr "Združite izbrane filtre?"
+
+#: js/prefs.js:610
+msgid "Joining filters..."
+msgstr "Združevanje filtrov ..."
+
+#: js/prefs.js:671
+msgid "Edit Multiple Feeds"
+msgstr "Uredite več virov hkrati"
+
+#: js/prefs.js:695
+msgid "Save changes to selected feeds?"
+msgstr "Shranite spremembe v izbrane vire?"
+
+#: js/prefs.js:772
+msgid "OPML Import"
+msgstr "OPML Import"
+
+#: js/prefs.js:799
+msgid "Please choose an OPML file first."
+msgstr "Prosimo, izberite najprej datoteko OPML ."
+
+#: js/prefs.js:802 plugins/import_export/import_export.js:115
+#: plugins/googlereaderimport/init.js:45
+msgid "Importing, please wait..."
+msgstr "Uvoz, prosimo počakajte ..."
+
+#: js/prefs.js:969
+msgid "Reset to defaults?"
+msgstr "Ponastavi na privzete vrednosti?"
+
+#: js/prefs.js:1083
+msgid ""
+"Remove category %s? Any nested feeds would be placed into Uncategorized."
+msgstr ""
+
+#: js/prefs.js:1089
+msgid "Removing category..."
+msgstr "Odstranjevanje kategorije ..."
+
+#: js/prefs.js:1110
+msgid "Remove selected categories?"
+msgstr "Odstrani izbrane vrste?"
+
+#: js/prefs.js:1113
+msgid "Removing selected categories..."
+msgstr "Odstranjevanje izbrane kategorije ..."
+
+#: js/prefs.js:1126
+msgid "No categories are selected."
+msgstr "Ni izbrana nobena kategorija."
+
+#: js/prefs.js:1134
+msgid "Category title:"
+msgstr "Naslov kategorije:"
+
+#: js/prefs.js:1138
+msgid "Creating category..."
+msgstr "Ustvarjanje kategorije ..."
+
+#: js/prefs.js:1165
+msgid "Feeds without recent updates"
+msgstr "Viri brez nedavnih posodobitev"
+
+#: js/prefs.js:1214
+msgid "Replace current OPML publishing address with a new one?"
+msgstr "Zamenjava trenutnega OPML objavljenega naslova  z novim?"
+
+#: js/prefs.js:1303
+msgid "Clearing feed..."
+msgstr "Počisti vir ..."
+
+#: js/prefs.js:1323
+msgid "Rescore articles in selected feeds?"
+msgstr "Ponovno točkuj članke v izbranih virih?"
+
+#: js/prefs.js:1326
+msgid "Rescoring selected feeds..."
+msgstr "Točkovanje izbraneh virov ..."
+
+#: js/prefs.js:1346
+msgid "Rescore all articles? This operation may take a lot of time."
+msgstr "Točkovanje vseh člankov? Ta operacija lahko traja veliko časa."
+
+#: js/prefs.js:1349
+msgid "Rescoring feeds..."
+msgstr "Točkovani viri ..."
+
+#: js/prefs.js:1366
+msgid "Reset selected labels to default colors?"
+msgstr "Ponastavitev izbranih oznak na privzete barve?"
+
+#: js/prefs.js:1403
+msgid "Settings Profiles"
+msgstr "Nastavitve Profilov"
+
+#: js/prefs.js:1412
+msgid ""
+"Remove selected profiles? Active and default profiles will not be removed."
+msgstr ""
+
+#: js/prefs.js:1415
+msgid "Removing selected profiles..."
+msgstr "Odstranjevanje izbranih profilov ..."
+
+#: js/prefs.js:1430
+msgid "No profiles are selected."
+msgstr "Noben Profil ni izbran."
+
+#: js/prefs.js:1438 js/prefs.js:1491
+msgid "Activate selected profile?"
+msgstr "Vključite izbrani profil?"
+
+#: js/prefs.js:1454 js/prefs.js:1507
+msgid "Please choose a profile to activate."
+msgstr "Prosimo, izberite profil, da ga aktivirate."
+
+#: js/prefs.js:1459
+msgid "Creating profile..."
+msgstr "Ustvarjanje profila ..."
+
+#: js/prefs.js:1515
+msgid "This will invalidate all previously generated feed URLs. Continue?"
+msgstr "To bo izničilo vse prej ustvarjene URL-je virov. Nadaljuj?"
+
+#: js/prefs.js:1518 plugins/share/share_prefs.js:6
+msgid "Clearing URLs..."
+msgstr "Čiščenje URL-jev ..."
+
+#: js/prefs.js:1525
+msgid "Generated URLs cleared."
+msgstr "Ustvarjeni URL-ji so počiščeni."
+
+#: js/prefs.js:1616
+msgid "Label Editor"
+msgstr "Urejevalnik Oznak"
+
+#: js/prefs.js:1738
+msgid "Subscribing to feeds..."
+msgstr "Naročanje na vire ..."
+
+#: js/prefs.js:1775
+msgid "Clear stored data for this plugin?"
+msgstr "Počistite shranjene podatke za ta vtičnik?"
+
+#: js/prefs.js:1792
+msgid "Clear all messages in the error log?"
+msgstr "Počistite vsa sporočila v dnevniku napak?"
+
+#: js/tt-rss.js:127
+msgid "Mark all articles as read?"
+msgstr "Označi vse predmete kot prebralne?"
+
+#: js/tt-rss.js:133
+msgid "Marking all feeds as read..."
+msgstr "Označevanje vseh virov, kot preberanih ..."
+
+#: js/tt-rss.js:384
+msgid "Please enable mail plugin first."
+msgstr "Prosimo, omogočite najprej poštni vtičnik."
+
+#: js/tt-rss.js:496
+msgid "Please enable embed_original plugin first."
+msgstr "Prosimo, omogočite najprej embed_original vtičnik."
+
+#: js/tt-rss.js:652
+msgid "Select item(s) by tags"
+msgstr "Izberite postavko(e) z naslednjimi oznakami"
+
+#: js/tt-rss.js:673
+msgid "You can't unsubscribe from the category."
+msgstr "Ne morete odjaviti iz kategorije."
+
+#: js/tt-rss.js:678 js/tt-rss.js:827
+msgid "Please select some feed first."
+msgstr "Prosimo, izberite najprej nekaj virov ."
+
+#: js/tt-rss.js:822
+msgid "You can't rescore this kind of feed."
+msgstr "Ne, ne moreš ponovno točkovati to vrsto vira."
+
+#: js/tt-rss.js:832
+msgid "Rescore articles in %s?"
+msgstr "Ponivno točkovanje člankov v %s?"
+
+#: js/tt-rss.js:835
+msgid "Rescoring articles..."
+msgstr "Točkovani članki ..."
+
+#: js/tt-rss.js:976
+msgid "New version available!"
+msgstr "Nova različica je na voljo!"
+
+#: js/viewfeed.js:109
+msgid "Cancel search"
+msgstr "Končanje iskanja"
+
+#: js/viewfeed.js:472
+msgid "Unstar article"
+msgstr "Odstrani zvezdico s članka"
+
+#: js/viewfeed.js:476
+msgid "Star article"
+msgstr "Ozvezdi članek"
+
+#: js/viewfeed.js:530
+msgid "Unpublish article"
+msgstr "Odjavi članek"
+
+#: js/viewfeed.js:534
+msgid "Publish article"
+msgstr "Objavi članek"
+
+#: js/viewfeed.js:686
+msgid "%d article selected"
+msgid_plural "%d articles selected"
+msgstr[0] "%d članek izbran"
+msgstr[1] "%d člankov izbranih"
+
+#: js/viewfeed.js:758 js/viewfeed.js:786 js/viewfeed.js:813 js/viewfeed.js:878
+#: js/viewfeed.js:912 js/viewfeed.js:1034 js/viewfeed.js:1077
+#: js/viewfeed.js:1130 js/viewfeed.js:2255 plugins/mailto/init.js:7
+#: plugins/mail/mail.js:7
+msgid "No articles are selected."
+msgstr "Nič predmetov ni izbranih."
+
+#: js/viewfeed.js:1042
+msgid "Delete %d selected article in %s?"
+msgid_plural "Delete %d selected articles in %s?"
+msgstr[0] "Izbriši %d izbrani članek v s%?"
+msgstr[1] "Izbriši %d izbrane članke v s%?"
+
+#: js/viewfeed.js:1044
+msgid "Delete %d selected article?"
+msgid_plural "Delete %d selected articles?"
+msgstr[0] "Izbriši %d izbrani članek?"
+msgstr[1] "Izbriši %d izbrane članke?"
+
+#: js/viewfeed.js:1086
+msgid "Archive %d selected article in %s?"
+msgid_plural "Archive %d selected articles in %s?"
+msgstr[0] "Arhiviraj %d izbrani članek v s%?"
+msgstr[1] "Arhiviraj %d izbrane članke v s%?"
+
+#: js/viewfeed.js:1089
+msgid "Move %d archived article back?"
+msgid_plural "Move %d archived articles back?"
+msgstr[0] "Premakni %d izbrani članek nazaj?"
+msgstr[1] "Premakni %d izbrane članke nazaj?"
+
+#: js/viewfeed.js:1091
+msgid ""
+"Please note that unstarred articles might get purged on next feed update."
+msgstr ""
+
+#: js/viewfeed.js:1136
+msgid "Mark %d selected article in %s as read?"
+msgid_plural "Mark %d selected articles in %s as read?"
+msgstr[0] "Označi %d izbrani članek v s% kot prebrane?"
+msgstr[1] "Označi %d izbrane članke v s% kot prebrane?"
+
+#: js/viewfeed.js:1160
+msgid "Edit article Tags"
+msgstr "Uredi zaznamke članka"
+
+#: js/viewfeed.js:1166
+msgid "Saving article tags..."
+msgstr "Shranjevanje članka ..."
+
+#: js/viewfeed.js:1405
+msgid "No article is selected."
+msgstr "Noben članek ni izbran."
+
+#: js/viewfeed.js:1440
+msgid "No articles found to mark"
+msgstr "Ne najdenih člankov za označitev"
+
+#: js/viewfeed.js:1442
+msgid "Mark %d article as read?"
+msgid_plural "Mark %d articles as read?"
+msgstr[0] "Označi %d izbrani članek  kot prebrane?"
+msgstr[1] "Označi %d izbrane članke  kot prebrane?"
+
+#: js/viewfeed.js:1950
+msgid "Open original article"
+msgstr "Odpri originalni članek"
+
+#: js/viewfeed.js:1956
+msgid "Display article URL"
+msgstr "Display  URL članka"
+
+#: js/viewfeed.js:2056
+msgid "Assign label"
+msgstr "Dodeli oznako"
+
+#: js/viewfeed.js:2061
+msgid "Remove label"
+msgstr "Odstranite oznako"
+
+#: js/viewfeed.js:2148
+msgid "Select articles in group"
+msgstr "Izberite članke v skupini"
+
+#: js/viewfeed.js:2157
+msgid "Mark group as read"
+msgstr "Označi skupino kot prebrano"
+
+#: js/viewfeed.js:2169
+msgid "Mark feed as read"
+msgstr "Označi vir kot prebran"
+
+#: js/viewfeed.js:2224
+msgid "Please enter new score for selected articles:"
+msgstr "Vnesite novo oceno za izbrane članke:"
+
+#: js/viewfeed.js:2266
+msgid "Please enter new score for this article:"
+msgstr "Vnesite novo oceno za ta članek:"
+
+#: js/viewfeed.js:2299
+msgid "Article URL:"
+msgstr "URL članka:"
+
+#: plugins/embed_original/init.js:6
+msgid "Sorry, your browser does not support sandboxed iframes."
+msgstr "Žal vaš brskalnik ne podpira samostojne okvirje (sandboxed iframes)."
+
+#: plugins/mailto/init.js:21 plugins/mail/mail.js:21
+msgid "Forward article by email"
+msgstr "Posreduj članek po e-pošti"
+
+#: plugins/import_export/import_export.js:13
+msgid "Export Data"
+msgstr "Izvoz podatkov"
+
+#: plugins/import_export/import_export.js:40
+msgid ""
+"Finished, exported %d article. You can download the data <a "
+"class='visibleLink' href='%u'>here</a>."
+msgid_plural ""
+"Finished, exported %d articles. You can download the data <a "
+"class='visibleLink' href='%u'>here</a>."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/import_export/import_export.js:93
+msgid "Data Import"
+msgstr "Uvoz podatkov"
+
+#: plugins/import_export/import_export.js:112
+msgid "Please choose the file first."
+msgstr "Prosimo, izberite najprej datoteko."
+
+#: plugins/note/note.js:17
+msgid "Saving article note..."
+msgstr "Shranjevanje opombe članka..."
+
+#: plugins/shorten_expanded/init.js:37
+msgid "Click to expand article"
+msgstr "Kliknite za razširitev članka"
+
+#: plugins/googlereaderimport/init.js:18
+msgid "Google Reader Import"
+msgstr "Google Reader uvoz"
+
+#: plugins/googlereaderimport/init.js:42
+msgid "Please choose a file first."
+msgstr "Prosimo, izberite najprej datoteko."
+
+#: plugins/instances/instances.js:10
+msgid "Link Instance"
+msgstr "Povezava primerka"
+
+#: plugins/instances/instances.js:73
+msgid "Edit Instance"
+msgstr "Urejabje primerka"
+
+#: plugins/instances/instances.js:122
+msgid "Remove selected instances?"
+msgstr "Odstrani izbrane primerke?"
+
+#: plugins/instances/instances.js:125
+msgid "Removing selected instances..."
+msgstr "Odstranjevanje izbrane primerkov ..."
+
+#: plugins/instances/instances.js:139 plugins/instances/instances.js:151
+msgid "No instances are selected."
+msgstr "Noben primerek ni izbran."
+
+#: plugins/instances/instances.js:156
+msgid "Please select only one instance."
+msgstr "Prosimo, izberite samo en primerek."
+
+#: plugins/share/share_prefs.js:3
+msgid "This will invalidate all previously shared article URLs. Continue?"
+msgstr "To bo izničilo vse URL naslove prej deljenega članka. Nadaljuj?"
+
+#: plugins/share/share_prefs.js:13
+msgid "Shared URLs cleared."
+msgstr "Deljene URL-ji so počiščeni."
+
+#: plugins/share/share.js:10
+msgid "Share article by URL"
+msgstr "Deli članek z URL"
+
+#: plugins/share/share.js:14
+msgid "Generate new share URL for this article?"
+msgstr "Ustvarjanje novega osnovnega URL za ta članek?"
+
+#: plugins/share/share.js:18
+msgid "Trying to change URL..."
+msgstr "Poskuša spremeniti URL ..."
+
+#: plugins/share/share.js:55
+msgid "Remove sharing for this article?"
+msgstr "Odstrani skupno rabo tega članka?"
+
+#: plugins/share/share.js:59
+msgid "Trying to unshare..."
+msgstr "Poskuša vzeti iz skupne rabe ..."
+
+#: plugins/updater/updater.js:58
+msgid ""
+"Backup your tt-rss directory before continuing. Please type 'yes' to "
+"continue."
+msgstr ""
+"varnostno kopiranjte vaš tt-rss imenik, preden nadaljujete. Prosimo, vpišite "
+"'da'za nadaljevanje."
